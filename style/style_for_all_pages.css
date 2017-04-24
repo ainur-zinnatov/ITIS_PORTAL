@@ -1,0 +1,45 @@
+.container{
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	/*background-color: #E6FEFF;*/
+	max-width: 980px;
+}
+
+.row{
+	margin-bottom: 15px;
+}
+
+.my_form_rules{
+	height: 32px;
+}
+
+.form{
+	margin-bottom: 100px;
+}
+
+#logo{
+	height: 155px;
+}
+
+#abbr_logo{
+	height: 45px;
+}
+
+#instructions{
+	height: 160px;
+	background-color: #CCF2F8;
+}
+
+.news{
+	height: 516px;
+}
+
+#info{
+	height: 130px;
+	background-color: #14B6CB;
+}
+
+#footer{
+	height: 72px;
+}
