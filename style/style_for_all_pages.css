@@ -4,10 +4,18 @@
 	margin-bottom: 50px;
 	/*background-color: #E6FEFF;*/
 	max-width: 980px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
 .row{
 	margin-bottom: 15px;
+	max-width: 980px;
+	background-color: red;
+}
+
+.col-md-6{
+	margin: 0px;
 }
 
 .my_form_rules{
@@ -38,8 +46,14 @@
 #info{
 	height: 130px;
 	background-color: #14B6CB;
+	box-sizing: border-box;
 }
 
 #footer{
 	height: 72px;
+}
+
+hr{
+	background-color: #14B6CB;
+	height: 2px;
 }
