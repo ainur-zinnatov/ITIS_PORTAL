@@ -1,3 +1,7 @@
+body{
+	background-image: url(../imgs/background.jpg);
+}
+
 .container{
 	margin: auto;
 	margin-top: 20px;
