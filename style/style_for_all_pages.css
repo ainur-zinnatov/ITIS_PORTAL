@@ -1,7 +1,14 @@
 body{
 	background-image: url(../imgs/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
+/*.col-md-3, .col-md-4, .col-md-6, .col-md-12{
+	margin: 0px;
+	padding: 0px;
+}
+*/
 .container{
 	margin: auto;
 	margin-top: 20px;
@@ -15,42 +22,45 @@ body{
 .row{
 	margin-bottom: 15px;
 	max-width: 980px;
-	/*background-color: red;*/
-}
-
-.col-md-6{
-	margin: 0px;
 }
 
 .my_form_rules{
 	height: 32px;
 }
 
-/*.form{
-	margin-bottom: 100px;
-}*/
+#flexbox_footer_style{
+	display: flex;
+	justify-content: space-between;
+}
 
 #logo{
 	height: 155px;
+	margin-top: 100px;
 }
 
 #abbr_logo{
-	height: 45px;
+	/*height: 45px;*/
+	margin-bottom: 25px;
+	width: 550px;
 }
 
-#instructions{
+#description{
 	height: 160px;
 	background-color: #CCF2F8;
+	display: flex;
+	align-items: center;
 }
 
 .news{
-	height: 516px;
+	display: flex;
+	justify-content: space-between;
 }
 
 #info{
 	height: 130px;
 	background-color: #14B6CB;
 	box-sizing: border-box;
+	padding: 10px;
 }
 
 #footer{
@@ -60,4 +70,12 @@ body{
 hr{
 	height: 2px;
 	background-color: #CCF2F8;
+}
+
+.news_block{
+	background-color: white;
+	width: 312px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
 }
