@@ -30,7 +30,7 @@
 }	
 
 #font_instructions{
-	font-family: 'MVideo';
+	font-family: 'Segoe UI Light';
 	font-size: 16pt;
 	 font-weight: 500;
 
@@ -47,8 +47,51 @@
 }
 
 #font_news_text{
-	font-family: 'MVideo';
+	font-family: 'Segoe UI Light';
 	font-size: 13.3pt;
 	font-weight: 100;
+	  line-height: 1.2em;
+}
+
+
+#font_news_time{
+	font-family: 'Segoe UI Light';
+	font-size: 13.3pt;
+	font-weight: 100;
+	color: #008EA5;
 	  line-height: 1em;
+}
+
+#font_news_time{
+	font-family: 'Segoe UI Light';
+	font-size: 13.3pt;
+	font-weight: 100;
+	color: #008EA5;
+	  line-height: 1em;
+}
+
+#font_info_itis{
+	font-family: 'Segoe UI Light';
+	font-size: 13pt;
+	font-weight: 600;
+	color: #FFFFFF;
+	  line-height: 1em;
+	 
+}
+
+#font_info{
+	font-family: 'Segoe UI Light';
+	font-size: 13pt;
+	font-weight: 100;
+	color: #FFFFFF;
+	  line-height: 1.2em;
+	 
+}
+
+#font_foter{
+	font-family: 'Segoe UI Light';
+	font-size: 13pt;
+	font-weight: 100;
+	color: #008EA5;
+	  line-height: 1.2em;
 }
