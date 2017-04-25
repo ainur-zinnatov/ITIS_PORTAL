@@ -1,0 +1,97 @@
+@font-face{
+	font-family: MVideo;
+	src: url('fonts/10479.ttf');
+	
+}
+@font-face {
+	font-family: WarfaceRegularEnglish;
+	src: url('fonts/10138.ttf');
+}
+@font-face {
+	font-family: Segoe UI Light;
+	src: url('fonts/10479.ttf');
+	}
+@font-face {
+	font-family: DINPro-Regular;
+	src: url('fonts/10419.otf');
+	}
+@font-face{
+	font-family: Product Sansi;
+	src: url('fonts/10505.ttf');
+	}	
+
+
+#font_abbr_logo{
+	font-family: 'WarfaceRegularEnglish';
+	font-size: 19pt;
+	line-height: 1em;
+	font-weight: 300;
+
+}	
+
+#font_instructions{
+	font-family: 'Segoe UI Light';
+	font-size: 16pt;
+	 font-weight: 500;
+
+
+	  color: #005F6E;
+	  line-height: 1.2em;
+}
+
+#font_news_header{
+	font-family: 'DINPro-Regular';
+	font-size: 19.6pt;
+	font-weight: 100;
+	  line-height: 1em;
+}
+
+#font_news_text{
+	font-family: 'Segoe UI Light';
+	font-size: 13.3pt;
+	font-weight: 100;
+	  line-height: 1.2em;
+}
+
+
+#font_news_time{
+	font-family: 'Segoe UI Light';
+	font-size: 13.3pt;
+	font-weight: 100;
+	color: #008EA5;
+	  line-height: 1em;
+}
+
+#font_news_time{
+	font-family: 'Segoe UI Light';
+	font-size: 13.3pt;
+	font-weight: 100;
+	color: #008EA5;
+	  line-height: 1em;
+}
+
+#font_info_itis{
+	font-family: 'Segoe UI Light';
+	font-size: 13pt;
+	font-weight: 600;
+	color: #FFFFFF;
+	  line-height: 1em;
+	 
+}
+
+#font_info{
+	font-family: 'Segoe UI Light';
+	font-size: 13pt;
+	font-weight: 100;
+	color: #FFFFFF;
+	  line-height: 1.2em;
+	 
+}
+
+#font_foter{
+	font-family: 'Segoe UI Light';
+	font-size: 13pt;
+	font-weight: 100;
+	color: #008EA5;
+	  line-height: 1.2em;
+}
