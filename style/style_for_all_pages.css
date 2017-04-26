@@ -63,6 +63,8 @@ body{
 	padding: 10px;
 }
 
+
+
 #footer{
 	height: 72px;
 }
@@ -77,5 +79,42 @@ hr{
 	width: 312px;
 	padding: 20px;
 	border-radius: 5px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+
+
+
+#info_small{
+	height: 80px;
+	background-color: #14B6CB;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.menu{
+
+	height: 40px;
+	background-color: #14B6CB;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.tags{
+	background-color: #66D7EA;
+	width: 154px;
+	height: 154px;
+	padding: 10px;
+}
+
+.events{
+	display: flex;
+}
+.event_block{
+	background-color: white;
+	width: 800px;
+	height: 270px;
+float:left
+	padding: 10px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.2);
 }
