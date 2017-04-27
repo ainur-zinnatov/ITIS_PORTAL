@@ -124,3 +124,30 @@ a:hover{
 	justify-content: space-between;
 }
 /* footer style end*/
+
+/* test style */
+#menu{
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 40px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #14B6CB;
+}
+
+/*#search{
+	height: 30px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+#search_style{
+	height: 100%;
+	border-radius: 0px;
+	/*margin: 0px;*/
+	padding: 4px;
+}
+*/
+/* test style end */
