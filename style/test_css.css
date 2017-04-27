@@ -93,3 +93,11 @@
 	color: #008EA5;
 	line-height: 1.2em;
 }
+
+
+#font_abbr_logo_small{
+	font-family: 'WarfaceRegularEnglish';
+	font-size: 15pt;
+	line-height: 1em;
+	font-weight: 400;
+}	
