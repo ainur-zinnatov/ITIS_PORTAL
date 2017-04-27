@@ -100,4 +100,8 @@
 	font-size: 15pt;
 	line-height: 1em;
 	font-weight: 400;
+	width: 400px;
+	/* костыль start */
+	margin-bottom: -2px;
+	/* костыль end */
 }	

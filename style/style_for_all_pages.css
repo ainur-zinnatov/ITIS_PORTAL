@@ -1,4 +1,4 @@
-/*main style*/
+/* main style */
 body{
 	background-image: url(../imgs/background.jpg);
 	background-repeat: no-repeat;
@@ -38,6 +38,14 @@ a{
 a:hover{
 	text-decoration: none;
 	color: inherit;
+}
+
+.main_block_with_flexbox{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	align-items: flex-start;
 }
 /*main style end*/
 
@@ -81,38 +89,34 @@ a:hover{
 /*description style end*/
 
 /* news style start*/
-.news{
-	/* костыль start*/
-	margin-left: -15px;
-	margin-right: -15px;
-	/* костыль end*/
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
 .news_block{
 	background-color: white;
-	width: 310px;
+	width: 312px;
 	padding: 20px;
 	border-radius: 5px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.2);
 }
-
-.news_block_space{
-	/*доделать Вике!!*/
-}
 /* news style end*/
 
-/*info style start*/
+/*info style start */
 #info{
-	height: 130px;
+	/*height: 130px;*/
 	background-color: #14B6CB;
 	box-sizing: border-box;
 	padding: 10px;
 	margin-bottom: 0px;
+	color: white;
 }
-/*logo style end*/
+
+/*#info_padding{
+	margin-right: 80px;
+}*/
+
+#info_flexbox{
+	display: flex;
+	flex-direction: row;
+}
+/*info style end*/
 
 /* footer style start*/
 #footer{
@@ -124,3 +128,69 @@ a:hover{
 	justify-content: space-between;
 }
 /* footer style end*/
+
+/* menu start */
+#menu{
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	background-color: #14B6CB;
+	box-sizing: border-box;
+	padding: 10px;
+	color: white;
+}
+
+.menu_link{
+	margin-right: 30px;
+}
+/* menu end */
+
+/* logo and abbr start */
+#logo_and_abbr{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+#mini_logo{
+	margin-right: 30px;
+	height: 63px;
+}
+/* logo and abbr end*/
+
+/* tags start */
+.tags{
+	background-color: rgba(102, 215, 234, 0.7);
+	width: 214px;
+	height: auto;
+	padding: 15px;
+}
+/* tags end */
+
+/* не нужно, н оможет и пригодиться */
+/*#info_small{
+	height: 80px;
+	background-color: #14B6CB;
+	box-sizing: border-box;
+	padding: 10px;
+}*/
+
+/* events style start */
+.event_block{
+	background-color: white;
+	width: 750px;
+	/*height: 270px;*/
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+/* events style end */
+
+
+/* не работает */
+.checkbox{
+	color: red;
+	border-color: rgb(102, 215, 234);
+	border: 2px;
+}
+/* не работает end 
