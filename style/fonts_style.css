@@ -114,18 +114,17 @@
 	font-weight: 100;
 	color: #005F6E;
 	float:left;
- 			margin: -26px 5px 0px 5px; /* Отступы */
-
-
+	margin-top: -5px;
+	margin-right: 10px;
 }
 
-#font_event_data{
+.font_event_data{
 	font-family: 'DINPro-Regular';
 	font-size: 15pt;
 	font-weight: 100;
 	color: #005F6E;
- 	margin-top: -13px; /* Отступы */
- 	margin-bottom: 0px;
+	margin-top: -10px;
+	margin-bottom: 4px;
 }
 
 #font_event_header{
@@ -134,11 +133,8 @@
 	font-weight: 100;
 	line-height: 1em;
 	float:left;
-	margin-right:  10px; /* Отступы */
-	margin-bottom: -10px;
-	margin-top: 5px;
-	margin-left: 10px;
-
+	padding-right: 30px;
+	padding-left: 10px;
 }
 
 #font_events_text{
@@ -146,9 +142,8 @@
 	font-size: 13.3pt;
 	font-weight: 100;
 	line-height: 1.2em;
-	margin-top: -10px;
-	margin-left:  15px;
-
+	padding-right: 30px;
+	padding-left: 10px;
 }
 
 #font_events_tag{
@@ -156,23 +151,17 @@
 	font-size: 13pt;
 	font-weight: 500;
 	color: #005F6E;
-	margin-right:  10px; 
-	margin-bottom: -15px;
-	margin-top: 10px;
-	margin-left: 10px;
-
 }
 
 #event_author{
 	font-family: 'Segoe UI Light';
 	font-size: 13pt;
 	font-weight: 300;
-	float: left;
-		text-align:right;
-
+	text-align: right;
+	padding-right: 10px;
 }
 
-#font_event_author_time{
+.font_event_author_time{
 	font-family: 'Segoe UI Light';
 	font-size: 13.3pt;
 	font-weight: 100;
@@ -199,4 +188,5 @@
 	font-size: 16pt;
 	font-weight: normal;
 	color: white;
+	margin-left: 8px;
 }
