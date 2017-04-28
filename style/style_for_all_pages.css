@@ -9,7 +9,7 @@ body{
 	margin-top: 20px;
 	margin-bottom: 50px;
 	/*background-color: #E6FEFF;*/
-	max-width: 980px;
+	width: 980px;
 	padding: 0px;
 }
 
@@ -183,6 +183,23 @@ a:hover{
 	padding: 10px;
 	border-radius: 5px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.event_block_images{
+	display: flex;
+	justify-content: space-between;
+	margin: -10px;
+	margin-top: 10px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+.event_img{
+	width: 33%;
+}
+
+.event_hr{
+	margin-bottom: 20px;
+	background-color: #008EA5;
 }
 /* events style end */
 
