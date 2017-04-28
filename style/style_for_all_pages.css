@@ -236,26 +236,21 @@ input[type="checkbox"]:checked + label:after {
   /*font-weight: bold;*/
 }
 /* checkbox end */ 
-/*krug*/
-.circle {
-  width: 25px;
-  height: 25px;
-  background: #FF6485;
-  border-radius: 100%;	
-  text-align: center;
-  vertical-align:middle;
-  margin-right: 10px;
-  margin-top: 3px;
 
-}
- 
-#circle_text {
-  font-family: 'Segoe UI Light';
-	font-size: 16pt;
-	font-weight: normal;
+#message_circle{
+	height: 25px;
+	width: 25px;
+	border-radius: 20px;
+	background-color: #FF6485;
 	color: white;
+	text-align: center;
+	margin-left: 10px;
+	margin-right:  10px;
+	margin-top: 3px;
 
 }
 
-/*krug eng*/
-
+#menu_fio_block{
+	display: flex;
+	flex-direction: row;
+}
