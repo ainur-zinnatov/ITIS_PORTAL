@@ -236,3 +236,18 @@ input[type="checkbox"]:checked + label:after {
   /*font-weight: bold;*/
 }
 /* checkbox end */ 
+
+#message_circle{
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	background-color: #FF6485;
+	color: white;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#menu_fio_block{
+	display: flex;
+	flex-direction: row;
+}
