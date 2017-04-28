@@ -136,12 +136,12 @@ a:hover{
 	height: 40px;
 	background-color: #14B6CB;
 	box-sizing: border-box;
-	padding: 10px;
+	padding: 5px 0 0 10px;
 	color: white;
 }
 
 .menu_link{
-	margin-right: 30px;
+	margin-right: 10px;
 }
 /* menu end */
 
@@ -236,3 +236,26 @@ input[type="checkbox"]:checked + label:after {
   /*font-weight: bold;*/
 }
 /* checkbox end */ 
+/*krug*/
+.circle {
+  width: 25px;
+  height: 25px;
+  background: #FF6485;
+  border-radius: 100%;	
+  text-align: center;
+  vertical-align:middle;
+  margin-right: 10px;
+  margin-top: 3px;
+
+}
+ 
+#circle_text {
+  font-family: 'Segoe UI Light';
+	font-size: 16pt;
+	font-weight: normal;
+	color: white;
+
+}
+
+/*krug eng*/
+

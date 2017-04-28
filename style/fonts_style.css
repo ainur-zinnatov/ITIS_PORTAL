@@ -16,7 +16,7 @@
 	src: url('fonts/10419.otf');
 }
 @font-face{
-	font-family: Product Sansi;
+	font-family: Product_Sansi;
 	src: url('fonts/10505.ttf');
 }	
 
@@ -100,11 +100,13 @@
 	font-size: 15pt;
 	line-height: 1em;
 	font-weight: 400;
+
 	width: 400px;
 	/* костыль start */
 	margin-bottom: -2px;
 	/* костыль end */
-}
+}	
+	
 
 #font_event_time{
 	font-family: 'DINPro-Regular';
@@ -154,7 +156,7 @@
 	font-size: 13pt;
 	font-weight: 500;
 	color: #005F6E;
-	margin-right:  10px; /* Отступы */
+	margin-right:  10px; 
 	margin-bottom: -15px;
 	margin-top: 10px;
 	margin-left: 10px;
@@ -165,8 +167,9 @@
 	font-family: 'Segoe UI Light';
 	font-size: 13pt;
 	font-weight: 300;
-	/*float: left;*/
-	text-align: right;
+	float: left;
+		text-align:right;
+
 }
 
 #font_event_author_time{
@@ -175,4 +178,26 @@
 	font-weight: 100;
 	color: #008EA5;
 	text-align:right;
+}
+
+#font_tag_box{
+	font-family: 'Segoe UI Light';
+	font-size: 13pt;
+	font-weight: normal;
+	color: #005F6E;
+}
+
+#font_menu{
+	font-family: 'Product_Sansi';
+	font-size: 16pt;
+	font-weight: normal;
+	color: white;
+}
+
+#font_menu_username{
+	font-family: 'Segoe UI Light';
+	font-size: 16pt;
+	font-weight: normal;
+	color: white;
+	margin-right: -250px;
 }
