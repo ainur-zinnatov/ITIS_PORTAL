@@ -143,6 +143,21 @@ a:hover{
 .menu_link{
 	margin-right: 30px;
 }
+
+#message_circle{
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	background-color: #FF6485;
+	color: white;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#menu_fio_block{
+	display: flex;
+	flex-direction: row;
+}
 /* menu end */
 
 /* logo and abbr start */
@@ -167,7 +182,7 @@ a:hover{
 }
 /* tags end */
 
-/* не нужно, н оможет и пригодиться */
+/* не нужно, но может и пригодиться */
 /*#info_small{
 	height: 80px;
 	background-color: #14B6CB;
@@ -198,8 +213,46 @@ a:hover{
 }
 
 .event_hr{
-	margin-bottom: 20px;
+	margin-top: -6px;
+	margin-bottom: 0px;
 	background-color: #008EA5;
+}
+
+.event_button{
+	height: 46px;
+	width: 204px;
+	background-color: #CCF2F8;
+	position: relative;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #008EA5;
+}
+
+#event_footer{
+	display: flex;
+	justify-content: flex-end;
+}
+
+#event_header{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+#event_data_and_place{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#event_time_and_data{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	/*margin-bottom: 10px;*/
 }
 /* events style end */
 
@@ -236,18 +289,3 @@ input[type="checkbox"]:checked + label:after {
   /*font-weight: bold;*/
 }
 /* checkbox end */ 
-
-#message_circle{
-	height: 20px;
-	width: 20px;
-	border-radius: 20px;
-	background-color: #FF6485;
-	color: white;
-	text-align: center;
-	margin-left: 10px;
-}
-
-#menu_fio_block{
-	display: flex;
-	flex-direction: row;
-}
