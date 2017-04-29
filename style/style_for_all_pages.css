@@ -46,6 +46,11 @@ a:visited{
 	text-decoration: none;
 }
 
+a:focus{
+	text-decoration: none;
+	color: inherit;
+}
+
 .main_block_with_flexbox{
 	display: flex;
 	flex-direction: row;
