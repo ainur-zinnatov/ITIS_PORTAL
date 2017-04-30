@@ -86,6 +86,10 @@ a:focus{
 	height: auto;
 	max-height: 25px;
 }
+.form-group > a{
+	margin-left: -65px;
+	margin-right: 5px;
+}
 
 			/*Button*/
 #sign-button{
