@@ -67,7 +67,7 @@ a:focus{
 	align-items: center;
 }
 
-.form-group{
+.form-inline > .form-group{
 	margin-right: 7px;
 }
 
