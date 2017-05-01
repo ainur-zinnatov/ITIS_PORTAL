@@ -262,7 +262,6 @@ a:focus{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #008EA5;
 	border: none;
 }
 
@@ -294,6 +293,14 @@ a:focus{
 .event_button_and_count{
 	display: flex;
 	flex-direction: row;
+}
+
+.event_participants_img{
+	width: 16px;
+	height: 20px;
+	margin-top: 13px;
+	margin-right: 10px;
+	margin-left: 5px;
 }
 /* events style end */
 
@@ -328,4 +335,4 @@ input[type="checkbox"]:checked + label:before {
 input[type="checkbox"]:checked + label:after {
   /*font-weight: bold;*/
 }
-/* checkbox end */
+/* checkbox end */ 
