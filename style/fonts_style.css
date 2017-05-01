@@ -153,12 +153,11 @@
 	color: #008EA5;
 }
 
-#event_author{
+#font_event_author{
 	font-family: 'Segoe UI Light';
 	font-size: 13pt;
 	font-weight: 300;
 	text-align: right;
-	padding-right: 10px;
 }
 
 .font_event_author_time{
@@ -191,4 +190,20 @@
 	font-weight: normal;
 	color: white;
 	margin-left: 8px;
+}
+
+#font_event_button{
+font-family: 'Segoe UI Light';
+	font-size: 13pt;
+	font-weight: 300;
+		color: #005F6E;
+
+}
+
+#font_event_participants{
+	font-family: 'DINPro-Regular';
+	font-size: 20pt;
+	font-weight: normal;
+		color: #008EA5;
+	margin-top: 3px;	
 }
