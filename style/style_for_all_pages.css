@@ -36,17 +36,7 @@ a{
 	text-decoration: none; 
 }
 
-a:hover{
-	text-decoration: none;
-	color: inherit;
-}
-
-a:visited{
-	color: inherit;
-	text-decoration: none;
-}
-
-a:focus{
+a:hover, a:visited, a:focus{
 	text-decoration: none;
 	color: inherit;
 }
