@@ -26,9 +26,9 @@ body{
 
 hr{
 	height: 2px;
-	background-color: #CCF2F8;
-	/*margin-top: 10px;*/
-	margin-bottom: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #008EA5;
 }
 
 a{
@@ -102,11 +102,9 @@ a:hover, a:visited, a:focus{
 	margin-right: 5px;
 }
 
-/*Button*/
 #sign-button{
 	margin-right: 5px;
 }
-
 /* form style end*/
 
 /*logo style start*/
@@ -114,6 +112,7 @@ a:hover, a:visited, a:focus{
 	height: 155px;
 	margin-top: 60px;
 }
+
 #logo > .col-md-12 > img{
 	width: 100%;
 	max-width: 500px;
@@ -145,6 +144,16 @@ a:hover, a:visited, a:focus{
 	border-radius: 5px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.2);
 }
+
+.news_img{
+	margin: -20px;
+	width: 312px;
+	margin-bottom: 10px;
+}
+
+.news_time{
+	margin-left: 10px;
+}
 /* news style end*/
 
 /*info style start */
@@ -162,6 +171,18 @@ a:hover, a:visited, a:focus{
 /* footer style start*/
 #footer{
 	height: 72px;
+}
+
+#footer_hr{
+	margin-top: 16px;
+}
+
+.footer_link{
+	margin-left: 10px;
+}
+
+#footer_margin{
+	margin: 10px;
 }
 /* footer style end*/
 
@@ -234,12 +255,6 @@ a:hover, a:visited, a:focus{
 	width: 33%;
 }
 
-.event_hr{
-	margin-top: -6px;
-	margin-bottom: 0px;
-	background-color: #008EA5;
-}
-
 .event_button{
 	height: 46px;
 	width: 204px;
@@ -254,6 +269,7 @@ a:hover, a:visited, a:focus{
 
 #event_header{
 	align-items: baseline;
+	margin-bottom: -5px;
 }
 
 .event_participants_img{
