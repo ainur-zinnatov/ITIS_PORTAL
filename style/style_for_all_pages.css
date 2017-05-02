@@ -43,9 +43,9 @@ a:hover, a:visited, a:focus{
 
 .main_block_with_flexbox{
 	display: flex;
-	flex-direction: row;
+/*	flex-direction: row;*/
 	justify-content: space-between;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	align-items: flex-start;
 }
 
@@ -151,6 +151,10 @@ a:hover, a:visited, a:focus{
 	margin-bottom: 10px;
 }
 
+.news_margin{
+	margin-bottom: 20px;
+}
+
 .news_time{
 	margin-left: 10px;
 }
@@ -243,6 +247,7 @@ a:hover, a:visited, a:focus{
 	padding: 10px;
 	border-radius: 5px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	margin-bottom: 20px;
 }
 
 .event_block_images{
@@ -259,8 +264,6 @@ a:hover, a:visited, a:focus{
 	height: 46px;
 	width: 204px;
 	background-color: #CCF2F8;
-	position: relative;
-	right: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -275,9 +278,13 @@ a:hover, a:visited, a:focus{
 .event_participants_img{
 	width: 16px;
 	height: 20px;
-	margin-top: 13px;
+	margin-top: 10px;
 	margin-right: 10px;
 	margin-left: 5px;
+}
+
+.event_participants_margin{
+	margin-top: 5px;
 }
 /* events style end */
 
@@ -307,6 +314,53 @@ a:hover, a:visited, a:focus{
 .group_text{
 	margin-top: 10px;
 	margin-right: 100px;
+}
+
+#one_group_direction{
+	background-color: #CCF2F8; 
+	min-height: 150px;
+}
+
+#one_group_header{
+	height: 62px;
+	background-color: white;
+	padding: 10px;
+	z-index: 2;
+}
+
+#one_group_header_img{
+	height: 150px; 
+	background-color: #CCF2F8;
+}
+
+.one_group_header_button{
+	height: 40px;
+	margin-left: 20px;
+	background-color: #14B6CB;
+	color: white!important;
+}
+
+.one_group_right_block{
+	padding: 10px; 
+	background-color: white; 
+	width: 215px; 
+	margin-top: 15px; 
+	margin-bottom:15px;
+}
+
+.one_group_doc_min_block{
+	background-color: #CCF2F8; 
+	padding: 5px; 
+	margin-top: 10px;
+}
+
+.one_group_participant_img{
+	padding-right: 10px;
+	min-height: 50px;
+}
+
+.one_group_participant_info_block{
+	padding-top: 10px;
 }
 /* groups style end */
 
@@ -341,3 +395,15 @@ input[type="checkbox"]:checked + label:after {
   /*font-weight: bold;*/
 }
 /* checkbox end */
+
+.border_radius_none{
+	border-radius: 0px!important;
+}
+
+.shadow_none{
+	box-shadow: none!important;
+}
+
+.shadow{
+	box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
