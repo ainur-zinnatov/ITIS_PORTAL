@@ -207,3 +207,10 @@ font-family: 'Segoe UI Light';
 		color: #008EA5;
 	margin-top: 3px;	
 }
+
+#font_show_more_block{
+	font-family: 'Segoe UI Light';
+	font-size: 16pt;
+	font-weight: 300;
+		color: #008EA5;
+}
