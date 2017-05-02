@@ -80,8 +80,7 @@ a:hover, a:visited, a:focus{
 .my_form_rules{
 	height: 32px;
 }
-<<<<<<< HEAD
-=======
+
 
 .form-inline > .form-group > input{
 	height: auto;
@@ -102,7 +101,6 @@ a:hover, a:visited, a:focus{
 #sign-button{
 	margin-right: 5px;
 }
->>>>>>> 4e88e9e281ed8cbd4be824515983d5711d463b29
 /* form style end*/
 
 /*logo style start*/
