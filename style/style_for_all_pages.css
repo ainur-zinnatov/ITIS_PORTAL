@@ -20,7 +20,7 @@ body{
 
 .row{
 	margin-bottom: 20px;
-	margin-right: 0px; 
+	margin-right: 0px;
 	margin-left: 0px;
 }
 
@@ -40,7 +40,7 @@ hr{
 
 a{
 	color: inherit;
-	text-decoration: none; 
+	text-decoration: none;
 }
 
 a:hover, a:visited, a:focus{
@@ -216,11 +216,20 @@ a:hover, a:visited, a:focus{
 	/*height: 130px;*/
 	background-color: #14B6CB;
 	box-sizing: border-box;
-	padding: 10px;
+	padding: 15px;
 	margin-bottom: 0px;
 	color: white;
+	display: flex;
+	justify-content: start;
 }
 
+#info-logo{
+	margin-right: 15px;
+	margin-left: 5px;
+	width:105px;
+	height: auto;
+	max-height: 105px;
+}
 /*info style end*/
 
 /* footer style start*/
@@ -397,7 +406,7 @@ aside{
 }
 
 #one_group_direction{
-	background-color: #CCF2F8; 
+	background-color: #CCF2F8;
 	min-height: 150px;
 }
 
@@ -409,7 +418,7 @@ aside{
 }
 
 #one_group_header_img{
-	height: 150px; 
+	height: 150px;
 	background-color: #CCF2F8;
 }
 
@@ -421,16 +430,16 @@ aside{
 }
 
 .one_group_right_block{
-	padding: 10px; 
-	background-color: white; 
-	width: 215px; 
-	margin-top: 15px; 
+	padding: 10px;
+	background-color: white;
+	width: 215px;
+	margin-top: 15px;
 	margin-bottom:15px;
 }
 
 .one_group_doc_min_block{
-	background-color: #CCF2F8; 
-	padding: 5px; 
+	background-color: #CCF2F8;
+	padding: 5px;
 	margin-top: 10px;
 }
 
