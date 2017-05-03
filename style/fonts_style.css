@@ -209,6 +209,12 @@
 	color: #008EA5;	
 }
 
+#font_show_more_block{
+	font-family: 'Segoe UI Light';
+	font-size: 16pt;
+	font-weight: 300;
+		color: #008EA5;
+}
 .font_group_participants{
 	font-family: 'DINPro-Regular';
 	font-size: 16pt;
