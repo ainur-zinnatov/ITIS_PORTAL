@@ -48,6 +48,33 @@ a:hover, a:visited, a:focus{
 	color: inherit;
 }
 
+.well{
+	background-color: white;
+	/*width: 720px;*/
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px;
+	border: 0px;
+	box-shadow: none;
+	/*padding: 10px;*/
+}
+
+.blue_background-color{
+	background-color: rgba(102,215,234,0.4);
+}
+
+.mini_button{
+	min-width: 124px;
+	height: 30px;
+	background-color: #14B6CB;
+}
+
+.input_block{
+	width: 286px;
+	height: 30px;
+	/*margin-right: 40px;*/
+}
+
 .main_block_with_flexbox{
 	display: flex;
 /*	flex-direction: row;*/
@@ -255,14 +282,30 @@ a:hover, a:visited, a:focus{
 }
 /* logo and abbr end*/
 
-/* tags start */
-.tags{
-	background-color: rgba(164, 233, 244, 0.75);
+/* aside start */
+aside{
 	width: 214px;
 	height: auto;
 	padding: 15px;
 }
-/* tags end */
+
+.aside_personal_area_main_block{
+	width: 240px!important;
+	padding: 0px!important;
+	background-color: none!important;
+}
+
+.aside_personal_area_img{
+	width: 40px;
+	height: 40px;
+	background-color: #14B6CB;
+	margin-right: 10px;
+}
+
+.margin_bottom20px{
+	margin-bottom: 20px;
+}
+/* aside end */
 
 /* events style start */
 .event_block{
@@ -433,6 +476,8 @@ input[type="checkbox"]:checked + label:after {
 }
 
 /* checkbox end */
+
+/* personal area start */
 .personal_area_min_block{
 	background-color: white;
 	width: 350px;
@@ -440,40 +485,20 @@ input[type="checkbox"]:checked + label:after {
 	margin-top: 20px;
 }
 
+.personal_area_block{
+	width: 720px;
+}
+
 .personal_area_min_block_img{
 	height: 100px;
 	min-width: 100px;
 }
 
-.personal_area_min_block_text{
+.padding10px{
 	padding: 10px;
 }
 
-.well{
-	background-color: white;
-	width: 750px;
-	margin: 0px;
-	margin-bottom: 20px;
-	padding: 0px;
-	border: 0px;
-	box-shadow: none;
-	padding: 10px;
+.padding_bottom20px{
+	padding-bottom: 20px;
 }
-
-.blue_background-color{
-	background-color: rgba(102,215,234,0.5);
-}
-
-.mini_button{
-	width: 124px;
-	height: 30px;
-	background-color: #14B6CB;
-}
-
-.input_block{
-	width: 280px;
-	height: 30px;
-	margin-right: 40px;
-}
-
-
+/* personal area end */

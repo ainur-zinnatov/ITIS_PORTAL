@@ -66,24 +66,24 @@
     <!-- Events container -->
     <div class="main_block_with_flexbox">
         <div>
-            <div style="width: 750px">
+            <div class="personal_area_block">
                 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                   Link with href
                 </a>
             </div>
             <div class="collapse" id="collapseExample">
-                <div class="well flex_row flex_justify_space_between blue_background-color">
+                <div class="well flex_row flex_justify_space_between blue_background-color personal_area_block">
                     <div>
 
                         <div class="personal_area_min_block flex_row shadow">
                             <img src="#" class="personal_area_min_block_img">
-                            <p class="personal_area_min_block_text">
+                            <p class="padding10px">
                             Название
                             </p>
                         </div>
                         <div class="personal_area_min_block flex_row shadow">
                             <img src="#" class="personal_area_min_block_img">
-                            <p class="personal_area_min_block_text">
+                            <p class="padding10px">
                             Название
                             </p>
                         </div>
@@ -93,7 +93,7 @@
 
                         <div class="personal_area_min_block flex_row shadow">
                             <img src="#" class="personal_area_min_block_img">
-                            <p class="personal_area_min_block_text">
+                            <p class="padding10px">
                             Название
                             </p>
                         </div>
@@ -101,14 +101,14 @@
                     </div>
                 </div>
             </div>
-            <div style="width: 750px">
+            <div class="personal_area_block">
                 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
                   Поиск студентов
                 </a>
             </div>
             <div class="collapse" id="collapseExample2">
                 <div class="well">
-                    <div class=" flex_row">
+                    <div class=" flex_row flex_justify_space_between">
                         <div>
                             <select class="input_block">
                                 <option>Пункт 1</option>
@@ -130,11 +130,27 @@
                         расширенный
                         </a>
                         <div class="collapse" id="advanced_search">
-                            <div class="well flex_row">
+                            <div class="well personal_area_block flex_row">
                                 <div class="flex_column">
                                     <input class="input_block" type="text" value="surname" name="surname">
                                     <input class="input_block" type="text"  value="name" name="name">
                                     <input class="input_block" type="text"  value="patronymic" name="patronymic">
+                                    <div class="flex_row">
+                                        <div class="flex_column">
+                                            <input type="radio" name="female" id="female">
+                                            <label for="female">Мужской</label>
+                                            <input type="radio" name="male" id="male">
+                                            <label for="male">Женский</label>
+                                        </div>
+                                        <div>
+                                            <div class="flex_column">
+                                            <input type="radio" name="budget" id="budget">
+                                            <label for="budget">Бюджет</label>
+                                            <input type="radio" name="contract" id="contract">
+                                            <label for="contract">Контракт</label>
+                                        </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="input_block">
                                     <input type="checkbox" name="captain" value="староста" id="captain">
@@ -145,18 +161,81 @@
                                     <input type="checkbox" name="captain5">
                                 </div>
                             </div>
+                            <div class="blue_background-color personal_area_block">
+                            <table class="table table-hover">
+                                <tr>
+                                    <td>№</td>
+                                    <td>ФИО</td>
+                                    <td>
+                                        <input type="checkbox" name="fio1" id="fio1">
+                                        <label for="fio1"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    1
+                                    </td>
+                                    <td>
+                                    Фамилия Имя Отчество
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" name="fio2" id="fio2">
+                                        <label for="fio2"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    2
+                                    </td>
+                                    <td>
+                                    Фамилия Имя Отчество
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" name="fio3" id="fio3">
+                                        <label for="fio3"></label>
+                                    </td>
+                                </tr>
+                            </table>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
         </div>
-        <div class="tags">
-            <div class="flexbox_aling_center">
-                <input type="checkbox" id="checkbox1" class="checkbox">
-                <label id="font_tag_box" for="checkbox1">#тег</label>
+        <aside class="aside_personal_area_main_block">
+            <div>
+                <a class="flexbox_aling_center flex_row margin_bottom20px blue_background-color">
+                    <img src="#" class="aside_personal_area_img">
+                    <span>Отправить уведомление</span>
+                </a>
             </div>
-        </div>
+            <div>
+                <a class="flexbox_aling_center flex_row margin_bottom20px blue_background-color">
+                    <img src="#" class="aside_personal_area_img">
+                    <span>Добавить пользователя</span>
+                </a>
+            </div>
+            <div class="flexbox_aling_center flex_row margin_bottom20px blue_background-color">
+                <a>
+                    <img src="#" class="aside_personal_area_img">
+                    <span>Выход</span>
+                </a>
+            </div>
+            <div class="blue_background-color padding10px margin_bottom20px">
+                <p>
+                Тема уведомления
+                </p>
+                <p>
+                Текст
+                </p>
+                <span>
+                до
+                </span>
+                <time>17:30</time>
+                <data>01.03.1995</data>
+            </div>
+        </aside>
     </div>   
     <!-- Events container end -->
 
