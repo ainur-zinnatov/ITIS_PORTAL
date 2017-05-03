@@ -280,21 +280,23 @@ a:hover, a:visited, a:focus{
 	margin-left: 5px;
 }
 
+.event_participants_margin{
+	margin-top: 5px;
+}
+
 .show_more_block{
 	background-color: #CCF2F8;
 	width: 750px;
 	/*height: 270px;*/
 	text-align: center;
 	padding: 2px;
+	margin-bottom: 20px;
 }
 
 .show_more_block a{
   display: block;
   height: 100%;
   width:100%;
-}
-.event_participants_margin{
-	margin-top: 5px;
 }
 /* events style end */
 
