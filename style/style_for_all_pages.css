@@ -24,6 +24,13 @@ body{
 	margin-left: 0px;
 }
 
+button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+
 hr{
 	height: 2px;
 	margin-bottom: 0px;
@@ -60,6 +67,15 @@ a:hover, a:visited, a:focus{
 	flex-direction: row;
 }
 
+.flex_column{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex_align_start{
+	align-items: flex-start;
+}
+
 .flex_justify_end{
 	display: flex;
 	justify-content: flex-end;
@@ -68,6 +84,18 @@ a:hover, a:visited, a:focus{
 .flex_justify_space_between{
 	display: flex;
 	justify-content: space-between;
+}
+
+.border_radius_none{
+	border-radius: 0px!important;
+}
+
+.shadow_none{
+	box-shadow: none!important;
+}
+
+.shadow{
+	box-shadow: 0 0 4px rgba(0,0,0,0.4);
 }
 /*main style end*/
 
@@ -261,10 +289,6 @@ a:hover, a:visited, a:focus{
 	height: 46px;
 	width: 204px;
 	background-color: #CCF2F8;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: none;
 }
 
 #event_header{
@@ -409,15 +433,47 @@ input[type="checkbox"]:checked + label:after {
 }
 
 /* checkbox end */
-
-.border_radius_none{
-	border-radius: 0px!important;
+.personal_area_min_block{
+	background-color: white;
+	width: 350px;
+	height: 100px;
+	margin-top: 20px;
 }
 
-.shadow_none{
-	box-shadow: none!important;
+.personal_area_min_block_img{
+	height: 100px;
+	min-width: 100px;
 }
 
-.shadow{
-	box-shadow: 0 0 4px rgba(0,0,0,0.4);
+.personal_area_min_block_text{
+	padding: 10px;
 }
+
+.well{
+	background-color: white;
+	width: 750px;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px;
+	border: 0px;
+	box-shadow: none;
+	padding: 10px;
+}
+
+.blue_background-color{
+	background-color: rgba(102,215,234,0.5);
+}
+
+.mini_button{
+	width: 124px;
+	height: 30px;
+	background-color: #14B6CB;
+}
+
+.input_block{
+	width: 280px;
+	height: 30px;
+	margin-right: 40px;
+}
+
+
