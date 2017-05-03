@@ -196,19 +196,17 @@
 }
 
 #font_event_button{
-font-family: 'Segoe UI Light';
+	font-family: 'Segoe UI Light';
 	font-size: 13pt;
 	font-weight: 300;
-		color: #005F6E;
-
+	color: #005F6E;
 }
 
 #font_event_participants{
 	font-family: 'DINPro-Regular';
 	font-size: 20pt;
 	font-weight: normal;
-	color: #008EA5;
-	margin-top: 3px;	
+	color: #008EA5;	
 }
 
 #font_show_more_block{
