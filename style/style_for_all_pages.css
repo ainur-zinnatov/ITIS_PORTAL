@@ -8,7 +8,6 @@ body{
 .container{
 	margin-top: 20px;
 	margin-bottom: 50px;
-	/*background-color: #E6FEFF;*/
 	width: 980px;
 	padding: 0px;
 }
@@ -39,8 +38,8 @@ hr{
 }
 
 a{
-	color: inherit;
-	text-decoration: none;
+	color: inherit!important;
+	text-decoration: none!important;
 }
 
 a:hover, a:visited, a:focus{
@@ -61,11 +60,19 @@ a:hover, a:visited, a:focus{
 }
 
 .blue_background_rgba_color{
-	background-color: rgba(102,215,234,0.4);
+	background-color: rgba(102,215,234,0.4)!important;
 }
 
 .dark_blue_background_color{
-	background-color: #008EA5;
+	background-color: #008EA5!important;
+}
+
+.dark_blue_color{
+	color: #008EA5!important;
+}
+
+.light_blue_color{
+	color: #14B6CB!important;
 }
 
 .mini_button{
@@ -77,14 +84,11 @@ a:hover, a:visited, a:focus{
 .input_block{
 	width: 286px;
 	height: 30px;
-	/*margin-right: 40px;*/
 }
 
 .main_block_with_flexbox{
 	display: flex;
-/*	flex-direction: row;*/
 	justify-content: space-between;
-	/*margin-bottom: 20px;*/
 	align-items: flex-start;
 }
 
@@ -526,6 +530,8 @@ label.checkbox-label{
 }
 /* personal area end */
 
+
+/* indents and sizes start */
 .padding_top5px{
 	padding-top: 5px;
 }
@@ -546,10 +552,25 @@ label.checkbox-label{
 	margin-top: 20px;
 }
 
+.margin_left10px{
+	margin-left: 10px;
+}
+
+.margin_left5px{
+	margin-left: 5px;
+}
+
 .block_width20{
 	width: 20%;
 }
 
 .block_width100{
 	width: 100%;
+}
+/* indents and sizes end */
+
+#remember_password{
+	position: relative;
+	top: 2px;
+	right: 5px;
 }

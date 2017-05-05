@@ -17,21 +17,24 @@
     <!-- Fonts style -->
     <link href="style/fonts_style.css" rel="stylesheet">
 
-  </head>
-  <body style="background-image: url(imgs/mp_background.jpg);">
+</head>
+<body style="background-image: url(imgs/mp_background.jpg);">
     <div class="container">
     	<div class="row form">
- 	 		<div class="col-md-6  col-md-offset-6">
- 	 			<form class="form-inline" role="form">
-	 	 			<div class="form-group">
+ 	 		<div class="col-md-6 col-md-offset-6">
+ 	 			<form class="form-inline flexbox_aling_center" role="form">
+	 	 			<div class="form-group margin_left10px">
 		    			<label class="sr-only sign_in_form" for="email">Email</label>
 		    			<input type="email" class="form-control my_form_rules" id="email" placeholder="Логин">
 	  				</div>
-	  				<div class="form-group">
+	  				<div class="form-group margin_left10px">
 		    			<label class="sr-only sign_in_form" for="password">Пароль</label>
-		    			<input type="password" class="form-control my_form_rules" id="password" placeholder="Пароль"><a href="">Забыли?</a>
+		    			<input type="password" class="form-control my_form_rules" id="password" placeholder="Пароль">
+                        <a href="#" class="light_blue_color" id="remember_password">Забыли?</a>
 	  				</div>
-	  				<input id="sign-button" type="image" name="sign_in" src="imgs/sign_in.png">
+                    <div class="margin_left5px flexbox_aling_center">
+	  				    <input id="sign-button" type="image" name="sign_in" src="imgs/sign_in.png" width="25px;">
+                    </div>
 				</form>
  	 		</div>
 		</div>
