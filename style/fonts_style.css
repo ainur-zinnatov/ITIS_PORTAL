@@ -53,13 +53,6 @@
 }
 
 
-#font_news_time{
-	font-family: 'Segoe UI Light';
-	font-size: 13.3pt;
-	font-weight: 100;
-	color: #008EA5;
-	line-height: 1em;
-}
 
 .font_news_time{
 	font-family: 'Segoe UI Light';
@@ -136,8 +129,7 @@
 	float:left;
 	padding-right: 20px;
 	padding-left: 10px;
-	/*margin-bottom: -5px;*/
-	/*padding-bottom: 5px;*/
+
 }
 
 .font_events_text{
@@ -221,3 +213,35 @@
 	font-weight: normal;
 	color: #008EA5;
 }
+
+.font_aside_personal_area{
+	font-family: 'Segoe UI Light';
+	font-size: 12pt;
+	font-weight: 300;
+	color: #005F6E;
+}
+
+
+.font_aside_personal_area{
+	font-family: 'Segoe UI Light';
+	font-size: 12pt;
+	font-weight: 300;
+	color: #005F6E;
+}
+
+.font_notification_subject_and_data{
+	font-family: 'Product_Sansi';
+	font-size: 13pt;
+	font-weight: 300;
+	color: #005F6E;
+}
+
+
+.font_notification_text{
+	font-family: 'Segoe UI Light';
+	font-size: 10pt;
+	font-weight: normal;
+	color: #005F6E;
+	margin-top: -8px;
+}
+
