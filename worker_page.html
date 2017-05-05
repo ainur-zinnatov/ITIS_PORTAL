@@ -66,15 +66,19 @@
     <!-- Events container -->
     <div class="main_block_with_flexbox">
         <div>
+            <!-- collapse start -->
             <div class="personal_area_block">
 
-                <a class="btn btn-primary font_worker_search_students_and_groups_header" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                Сообщества    Проекты              
+                <a class="font_worker_search_students_and_groups_header" role="button" data-toggle="collapse" href="#groups_adn_projects" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="white_background_color shadow">
+                    Сообщества Проекты
+                    </div>            
                 </a>
 
             </div>
-            <div class="collapse font_group_project_name" id="collapseExample">
-                <div class="well flex_row flex_justify_space_between blue_background_rgba_color personal_area_block">
+            <!-- collapse open block start -->
+            <div class="collapse font_group_project_name" id="groups_adn_projects">
+                <div class="well flex_row flex_justify_space_between blue_background_rgba_color personal_area_block border_radius_none">
                     <div>
 
                         <div class="personal_area_min_block flex_row shadow">
@@ -103,126 +107,154 @@
                     </div>
                 </div>
             </div>
-            <div class="personal_area_block">
-                <a class="btn btn-primary font_worker_search_students_and_groups_header" role="button" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                  Поиск студентов
-                </a>
+            <!-- collapse open block end -->
+            <!-- collapse end -->
+
+            <!-- collapse start -->
+            <div class="personal_area_block" style="margin-top: 20px;">
+                    <a class="font_worker_search_students_and_groups_header" role="button" data-toggle="collapse" href="#students_search" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="white_background_color shadow">
+                          Поиск студентов
+                        </div>
+                    </a>
             </div>
-            <div class="collapse" id="collapseExample2">
+            <!-- collapse open block start -->
+            <div class="collapse" id="students_search">
                 <div class="well">
-                    <div class=" flex_row flex_justify_space_between">
-                        <div class="font_placeholder_student_search">
-                            <select class="input_block">
-                                <option>Пункт 1</option>
-                                <option>Пункт 2</option>
-                            </select>
-                        </div>
-                        <div class="font_placeholder_student_search">
-                            <select class="input_block">
-                                <option>Пункт 1</option>
-                                <option>Пункт 2</option>
-                            </select>
-                        </div>
-                        <button class="mini_button font_student_search_button">
-                            Найти
-                        </button>
-                    </div>
-                    <div>
-                        <a class="btn btn-primary font_button_checkbox_radio" role="button" data-toggle="collapse" href="#advanced_search" aria-expanded="false" aria-controls="collapseExample">
-                        расширенный
-                        </a>
-                        <div class="collapse" id="advanced_search">
-                            <div class="well personal_area_block flex_row">
-                                <div class="flex_column">
-                                    <input class="input_block font_placeholder_student_search" type="text" value="surname" name="surname">
-                                    <input class="input_block font_placeholder_student_search" type="text"  value="name" name="name">
-                                    <input class="input_block font_placeholder_student_search" type="text"  value="patronymic" name="patronymic">
-                                    <div class="flex_row font_button_checkbox_radio">
-                                        <div class="flex_column ">
-                                            <input type="radio" name="female" id="female">
-                                            <label for="female">Мужской</label>
-                                            <input type="radio" name="male" id="male">
-                                            <label for="male">Женский</label>
+                    <!-- white collapse block start -->
+                    <div class="white_background_color shadow">
+                            <div class="flex_row flex_justify_space_between">
+                                <div class="font_placeholder_student_search">
+                                    <select class="input_block">
+                                        <option>Пункт 1</option>
+                                        <option>Пункт 2</option>
+                                    </select>
+                                </div>
+                                <div class="font_placeholder_student_search">
+                                    <select class="input_block">
+                                        <option>Пункт 1</option>
+                                        <option>Пункт 2</option>
+                                    </select>
+                                </div>
+                                <button class="mini_button font_student_search_button">
+                                    Найти
+                                </button>
+                            </div>
+
+                            <!-- extended collapse start  -->
+                            <div>
+                                <a class=" font_button_checkbox_radio" role="button" data-toggle="collapse" href="#advanced_search" aria-expanded="false" aria-controls="collapseExample">
+                                расширенный
+                                </a>
+                                <!-- collapse open block start -->
+                                <div class="collapse" id="advanced_search">
+                                    <div class="well personal_area_block flex_row white_background_color">
+                                        <div class="flex_column">
+                                            <input class="input_block font_placeholder_student_search" type="text" value="Фамилия" name="surname">
+                                            <input class="input_block font_placeholder_student_search" type="text"  value="Имя" name="name">
+                                            <input class="input_block font_placeholder_student_search" type="text"  value="Отчество" name="patronymic">
+                                            <div class="flex_row font_button_checkbox_radio">
+                                                <div class="flex_column ">
+                                                    <div class="flex_row">
+                                                        <input type="radio" name="female" id="female">
+                                                        <label for="female">Мужской</label>
+                                                    </div>
+                                                    <div class="flex_row">
+                                                        <input type="radio" name="male" id="male">
+                                                        <label for="male">Женский</label>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="flex_column">
+                                                        <div class="flex_row">
+                                                            <input type="radio" name="budget" id="budget">
+                                                            <label for="budget">Бюджет</label>
+                                                        </div>
+                                                        <div class="flex_row">
+                                                            <input type="radio" name="contract" id="contract">
+                                                            <label for="contract">Контракт</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <div class="flex_column ">
-                                            <input type="radio" name="budget" id="budget">
-                                            <label for="budget">Бюджет</label>
-                                            <input type="radio" name="contract" id="contract">
-                                            <label for="contract">Контракт</label>
-                                        </div>
+
+                                        <div style="margin-left: 15px;" class="flex_column flex_justify_space_between">
+
+                                            <input type="checkbox" name="captain" value="староста" id="captain">
+                                            <label class="checkbox-label chb-label-font" for="captain">Староста</label>
+
+                                            <input type="checkbox" name="captain2" value="профорг" id="captain2">
+                                            <label class="checkbox-label chb-label-font" for="captain2">Профорг</label>
+
+                                            <input type="checkbox" name="captain3" value="спорторг" id="captain3">
+                                            <label class="checkbox-label chb-label-font" for="captain3">Спорторг</label>
+
+                                            <input type="checkbox" name="captain4" value="соцорг" id="captain4">
+                                            <label class="checkbox-label chb-label-font" for="captain4">Соцорг</label>
+
+                                            <input type="checkbox" name="captain5" value="культорг" id="captain5">
+                                            <label class="checkbox-label chb-label-font" for="captain5">Культорг</label>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div style="margin-left: 15px;" class="flex_column flex_justify_space_between">
-
-                                    <input type="checkbox" name="captain" value="староста" id="captain">
-                                    <label class="checkbox-label chb-label-font" for="captain">Староста</label>
-
-                                    <input type="checkbox" name="captain2" value="профорг" id="captain2">
-                                    <label class="checkbox-label chb-label-font" for="captain2">Профорг</label>
-
-                                    <input type="checkbox" name="captain3" value="спорторг" id="captain3">
-                                    <label class="checkbox-label chb-label-font" for="captain3">Спорторг</label>
-
-                                    <input type="checkbox" name="captain4" value="соцорг" id="captain4">
-                                    <label class="checkbox-label chb-label-font" for="captain4">Соцорг</label>
-
-                                    <input type="checkbox" name="captain5" value="культорг" id="captain5">
-                                    <label class="checkbox-label chb-label-font" for="captain5">Культорг</label>
-                                </div>
+                                <!-- collapse open block end  -->
                             </div>
-
-                            <div class="blue_background_rgba_color personal_area_block">
-                            <table class="table font_student_list" style="width: 100%" rules="all" bordercolor="#008EA5">
-
-                                <tr>
-                                    <td>№</td>
-                                    <td>ФИО</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                    1
-                                    </td>
-                                    <td>
-                                      
-                                        <div class="flex_row flexbox_aling_center">
-                                            <span class="block_width100">
-                                            Фамилия Имя Отчество
-                                            </span>
-                                            <span class=" flex_justify_end block_width20">
-                                                <input type="checkbox" name="fio1" id="fio1">
-                                                <label for="fio1" class="checkbox-label chb-label-font padding_top5px"></label>
-                                            </span>
-                                        </div>
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                    2
-                                    </td>
-                                    <td>
-
-                                        <div class="flex_row flexbox_aling_center">
-                                            <span class="block_width100">
-                                            Фамилия Имя Отчество
-                                            </span>
-                                            <span class=" flex_justify_end block_width20">
-                                                <input type="checkbox" name="fio2" id="fio2">
-                                                <label for="fio2" class="padding_top5px checkbox-label chb-label-font"></label>
-                                            </span>
-                                        </div>
-
-                                    </td>
-                                </tr>
-                            </table>
-                            </div>
-                        </div>
+                            <!-- extended collapse end -->
                     </div>
+                    <!-- white collapse block end -->
+
+                    <!-- table start -->
+                    <div class="blue_background_rgba_color personal_area_block">
+                                <table class="table font_student_list block_width100" rules="all" bordercolor="#008EA5">
+
+                                    <tr>
+                                        <td>№</td>
+                                        <td>ФИО</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        1
+                                        </td>
+                                        <td>
+                                          
+                                            <div class="flex_row flexbox_aling_center">
+                                                <span class="block_width100">
+                                                Фамилия Имя Отчество
+                                                </span>
+                                                <span class=" flex_justify_end block_width20">
+                                                    <input type="checkbox" name="fio1" id="fio1">
+                                                    <label for="fio1" class="checkbox-label chb-label-font padding_top5px"></label>
+                                                </span>
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        2
+                                        </td>
+                                        <td>
+
+                                            <div class="flex_row flexbox_aling_center">
+                                                <span class="block_width100">
+                                                Фамилия Имя Отчество
+                                                </span>
+                                                <span class=" flex_justify_end block_width20">
+                                                    <input type="checkbox" name="fio2" id="fio2">
+                                                    <label for="fio2" class="padding_top5px checkbox-label chb-label-font"></label>
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                    </div>
+                    <!-- table end -->
                 </div>
-            </div>
+                <!-- well end -->
+            </div>            
+            <!-- collapse open block end -->
+            <!-- collapse end -->
 
         </div>
 

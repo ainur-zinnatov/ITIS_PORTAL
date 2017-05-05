@@ -49,14 +49,15 @@ a:hover, a:visited, a:focus{
 }
 
 .well{
-	background-color: white;
-	/*width: 720px;*/
 	margin: 0px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	padding: 0px;
 	border: 0px;
 	box-shadow: none;
-	/*padding: 10px;*/
+}
+
+.white_background_color{
+	background-color: white;
 }
 
 .blue_background_rgba_color{
@@ -390,7 +391,6 @@ aside{
 	margin-top: 5px;
 }
 
-
 .group_img{
 	width: 204px;
 	margin: -10px;
@@ -495,6 +495,7 @@ input[type=checkbox] + label {
 input[type=checkbox]:checked + label {
 	background-position: 0 -20px;
 }
+
 label.checkbox-label{
 	background-image:url(../imgs/chb.png);
 	-webkit-touch-callout: none;
@@ -523,6 +524,11 @@ label.checkbox-label{
 	height: 100px;
 	min-width: 100px;
 }
+/* personal area end */
+
+.padding_top5px{
+	padding-top: 5px;
+}
 
 .padding10px{
 	padding: 10px;
@@ -530,11 +536,6 @@ label.checkbox-label{
 
 .padding_bottom20px{
 	padding-bottom: 20px;
-}
-/* personal area end */
-
-.padding_top5px{
-	padding-top: 5px;
 }
 
 .block_width20{
