@@ -157,9 +157,20 @@
                                 <div class="collapse" id="advanced_search">
                                     <div class="well personal_area_block flex_row white_background_color">
                                         <div class="flex_column">
-                                            <input class="input_block font_placeholder_student_search" type="text" value="Фамилия" name="surname">
-                                            <input class="input_block font_placeholder_student_search" type="text"  value="Имя" name="name">
-                                            <input class="input_block font_placeholder_student_search" type="text"  value="Отчество" name="patronymic">
+
+                                            <div class="form-group">
+                                                <label class="sr-only sign_in_form" for="surname">Фамилия</label>
+                                                <input class="input_block font_placeholder_student_search" id="surname" type="text" name="surname" placeholder="Фамилия">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="sr-only sign_in_form" for="name">Имя</label>
+                                                <input class="input_block font_placeholder_student_search" id="name" type="text"  name="name" placeholder="Имя">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="sr-only sign_in_form" for="patronymic">Отчество</label>
+                                                <input class="input_block font_placeholder_student_search" type="text" id="patronymic" name="patronymic" placeholder="Отчество">
+                                            </div>
+
                                             <div class="flex_row font_button_checkbox_radio">
                                                 <div class="flex_column ">
                                                     <div class="flex_row">
