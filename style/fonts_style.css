@@ -187,7 +187,8 @@
 	margin-left: 8px;
 }
 
-#font_event_button{
+/*event_page, worker_page*/
+.font_button_checkbox_radio{
 	font-family: 'Segoe UI Light';
 	font-size: 13pt;
 	font-weight: 300;
@@ -245,3 +246,42 @@
 	margin-top: -8px;
 }
 
+
+.font_group_project_name{
+	font-family: 'DINPro-Regular';
+	font-size: 13pt;
+	font-weight: 300;
+	color: #000000;
+
+}
+
+
+.font_worker_search_students_and_groups_header{
+	font-family: 'DINPro-Regular';
+	font-size: 18pt;
+	font-weight: normal;
+	color: #005F6E;	
+}
+
+.font_placeholder_student_search{
+	font-family: 'Segoe UI Light';
+	font-size: 18pt;
+	font-weight: normal;
+	color: #B3B3B3;
+}
+
+
+.font_student_search_button{
+	font-family: 'Segoe UI Light';
+	font-size: 13pt;
+	font-weight: normal;
+	color: white;
+}
+
+
+.font_student_list{
+	font-family: 'Segoe UI Light';
+	font-size: 19pt;
+	font-weight: 300;
+	color: #005F6E;
+}
