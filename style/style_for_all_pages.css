@@ -467,26 +467,42 @@ label {
   cursor: pointer;
 }
 
-input[type="checkbox"] + label:before {
-  border: 2px solid #008EA5;
-  content: "\00a0";
-  display: inline-block;
-  height: 23px;
-  width: 23px;
-  vertical-align: top;
-  margin-right: 8px;
+input[type=checkbox]{
+	position:absolute;
+	z-index:-1000;
+	left:-1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height:1px;
+	width:1px;
+	margin:-1px;
+	padding:0;
+	border:0;
 }
 
-input[type="checkbox"]:checked + label:before {
-  color: #008EA5;
-  /*content: "\2713";*/
-  content: "\2714";
-  text-align: center;
-  font-size: 12pt;
+input[type=checkbox] + label {
+	padding-left:25px;
+	height:20px;
+	display:inline-block;
+	line-height:20px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:20px;
+	vertical-align:middle;
+	cursor:pointer;
 }
 
-input[type="checkbox"]:checked + label:after {
-  /*font-weight: bold;*/
+input[type=checkbox]:checked + label {
+	background-position: 0 -20px;
+}
+label.checkbox-label{
+	background-image:url(../imgs/chb.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 /* checkbox end */

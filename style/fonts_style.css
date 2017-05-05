@@ -1,7 +1,7 @@
 @font-face{
 	font-family: MVideo;
 	src: url('fonts/10479.ttf');
-	
+
 }
 @font-face {
 	font-family: WarfaceRegularEnglish;
@@ -18,7 +18,7 @@
 @font-face{
 	font-family: Product_Sansi;
 	src: url('fonts/10505.ttf');
-}	
+}
 
 
 #font_abbr_logo{
@@ -26,7 +26,7 @@
 	font-size: 19pt;
 	line-height: 1em;
 	font-weight: 300;
-}	
+}
 
 #font_description{
 	font-family: 'Segoe UI Light';
@@ -68,7 +68,7 @@
 	font-weight: 600;
 	color: #FFFFFF;
 	line-height: 1em;
-	 
+
 }
 
 #font_info{
@@ -77,7 +77,7 @@
 	font-weight: 100;
 	color: #FFFFFF;
 	line-height: 1.2em;
-	 
+
 }
 
 #font_footer{
@@ -99,8 +99,8 @@
 	/* костыль start */
 	margin-bottom: -2px;
 	/* костыль end */
-}	
-	
+}
+
 
 #font_event_time{
 	font-family: 'DINPro-Regular';
@@ -199,7 +199,7 @@
 	font-family: 'DINPro-Regular';
 	font-size: 20pt;
 	font-weight: normal;
-	color: #008EA5;	
+	color: #008EA5;
 }
 
 #font_show_more_block{
@@ -284,4 +284,11 @@
 	font-size: 19pt;
 	font-weight: 300;
 	color: #005F6E;
+}
+
+.chb-label-font{
+	font-family: 'Segoe UI Light';
+	font-size: 16pt;
+	font-weight: normal;
+	color: #005f6f;
 }
