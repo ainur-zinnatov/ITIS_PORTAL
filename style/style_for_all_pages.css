@@ -515,3 +515,15 @@ input[type="checkbox"]:checked + label:after {
 	padding-bottom: 20px;
 }
 /* personal area end */
+
+.padding_top5px{
+	padding-top: 5px;
+}
+
+.block_width20{
+	width: 20%;
+}
+
+.block_width100{
+	width: 100%;
+}
