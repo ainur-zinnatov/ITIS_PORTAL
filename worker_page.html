@@ -67,24 +67,26 @@
     <div class="main_block_with_flexbox">
         <div>
             <div class="personal_area_block">
-                <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                  Link with href
+
+                <a class="btn btn-primary font_worker_search_students_and_groups_header" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Сообщества    Проекты              
                 </a>
+
             </div>
-            <div class="collapse" id="collapseExample">
-                <div class="well flex_row flex_justify_space_between blue_background-color personal_area_block">
+            <div class="collapse font_group_project_name" id="collapseExample">
+                <div class="well flex_row flex_justify_space_between blue_background_rgba_color personal_area_block">
                     <div>
 
                         <div class="personal_area_min_block flex_row shadow">
                             <img src="#" class="personal_area_min_block_img">
                             <p class="padding10px">
-                            Название
+                            Название сообщества
                             </p>
                         </div>
                         <div class="personal_area_min_block flex_row shadow">
                             <img src="#" class="personal_area_min_block_img">
                             <p class="padding10px">
-                            Название
+                            Название сообщества
                             </p>
                         </div>
 
@@ -94,7 +96,7 @@
                         <div class="personal_area_min_block flex_row shadow">
                             <img src="#" class="personal_area_min_block_img">
                             <p class="padding10px">
-                            Название
+                            Название проекта
                             </p>
                         </div>
 
@@ -102,48 +104,48 @@
                 </div>
             </div>
             <div class="personal_area_block">
-                <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                <a class="btn btn-primary font_worker_search_students_and_groups_header" role="button" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
                   Поиск студентов
                 </a>
             </div>
             <div class="collapse" id="collapseExample2">
                 <div class="well">
                     <div class=" flex_row flex_justify_space_between">
-                        <div>
+                        <div class="font_placeholder_student_search">
                             <select class="input_block">
                                 <option>Пункт 1</option>
                                 <option>Пункт 2</option>
                             </select>
                         </div>
-                        <div>
+                        <div class="font_placeholder_student_search">
                             <select class="input_block">
                                 <option>Пункт 1</option>
                                 <option>Пункт 2</option>
                             </select>
                         </div>
-                        <button class="mini_button">
+                        <button class="mini_button font_student_search_button">
                             Найти
                         </button>
                     </div>
                     <div>
-                        <a class="btn btn-primary" role="button" data-toggle="collapse" href="#advanced_search" aria-expanded="false" aria-controls="collapseExample">
+                        <a class="btn btn-primary font_button_checkbox_radio" role="button" data-toggle="collapse" href="#advanced_search" aria-expanded="false" aria-controls="collapseExample">
                         расширенный
                         </a>
                         <div class="collapse" id="advanced_search">
                             <div class="well personal_area_block flex_row">
                                 <div class="flex_column">
-                                    <input class="input_block" type="text" value="surname" name="surname">
-                                    <input class="input_block" type="text"  value="name" name="name">
-                                    <input class="input_block" type="text"  value="patronymic" name="patronymic">
-                                    <div class="flex_row">
-                                        <div class="flex_column">
+                                    <input class="input_block font_placeholder_student_search" type="text" value="surname" name="surname">
+                                    <input class="input_block font_placeholder_student_search" type="text"  value="name" name="name">
+                                    <input class="input_block font_placeholder_student_search" type="text"  value="patronymic" name="patronymic">
+                                    <div class="flex_row font_button_checkbox_radio">
+                                        <div class="flex_column ">
                                             <input type="radio" name="female" id="female">
                                             <label for="female">Мужской</label>
                                             <input type="radio" name="male" id="male">
                                             <label for="male">Женский</label>
                                         </div>
                                         <div>
-                                            <div class="flex_column">
+                                            <div class="flex_column ">
                                             <input type="radio" name="budget" id="budget">
                                             <label for="budget">Бюджет</label>
                                             <input type="radio" name="contract" id="contract">
@@ -152,7 +154,9 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div style="margin-left: 15px;" class="flex_column flex_justify_space_between">
+
                                     <input type="checkbox" name="captain" value="староста" id="captain">
                                     <label class="checkbox-label chb-label-font" for="captain">Староста</label>
 
@@ -169,26 +173,30 @@
                                     <label class="checkbox-label chb-label-font" for="captain5">Культорг</label>
                                 </div>
                             </div>
-                            <div class="blue_background-color personal_area_block">
-                            <table class="table table-hover">
+
+                            <div class="blue_background_rgba_color personal_area_block">
+                            <table class="table font_student_list" style="width: 100%" rules="all" bordercolor="#008EA5">
+
                                 <tr>
                                     <td>№</td>
                                     <td>ФИО</td>
-                                    <td>
-                                        <input type="checkbox" name="fio1" id="fio1">
-                                        <label class="checkbox-label chb-label-font" for="fio1"></label>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>
                                     1
                                     </td>
                                     <td>
-                                    Фамилия Имя Отчество
-                                    </td>
-                                    <td>
-                                        <input type="checkbox" name="fio2" id="fio2">
-                                        <label class="checkbox-label chb-label-font" for="fio2"></label>
+                                      
+                                        <div class="flex_row flexbox_aling_center">
+                                            <span class="block_width100">
+                                            Фамилия Имя Отчество
+                                            </span>
+                                            <span class=" flex_justify_end block_width20">
+                                                <input type="checkbox" name="fio1" id="fio1">
+                                                <label for="fio1" class="checkbox-label chb-label-font padding_top5px"></label>
+                                            </span>
+                                        </div>
+
                                     </td>
                                 </tr>
                                 <tr>
@@ -196,11 +204,17 @@
                                     2
                                     </td>
                                     <td>
-                                    Фамилия Имя Отчество
-                                    </td>
-                                    <td>
-                                        <input type="checkbox" name="fio3" id="fio3">
-                                        <label class="checkbox-label chb-label-font" for="fio3"></label>
+
+                                        <div class="flex_row flexbox_aling_center">
+                                            <span class="block_width100">
+                                            Фамилия Имя Отчество
+                                            </span>
+                                            <span class=" flex_justify_end block_width20">
+                                                <input type="checkbox" name="fio2" id="fio2">
+                                                <label for="fio2" class="padding_top5px checkbox-label chb-label-font"></label>
+                                            </span>
+                                        </div>
+
                                     </td>
                                 </tr>
                             </table>
@@ -211,38 +225,44 @@
             </div>
 
         </div>
-        <aside class="aside_personal_area_main_block">
-            <div>
-                <a class="flexbox_aling_center flex_row margin_bottom20px blue_background-color">
+
+        <aside class="aside_personal_area_main_block font_aside_personal_area">
+            <div >
+                <a class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color">
+
                     <img src="#" class="aside_personal_area_img">
                     <span>Отправить уведомление</span>
                 </a>
             </div>
             <div>
-                <a class="flexbox_aling_center flex_row margin_bottom20px blue_background-color">
-                    <img src="#" class="aside_personal_area_img">
+                <a class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color">
+                    <img src="imgs/Worker_Profile_add_user.png" class="aside_personal_area_img">
                     <span>Добавить пользователя</span>
                 </a>
             </div>
-            <div class="flexbox_aling_center flex_row margin_bottom20px blue_background-color">
+            <div class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color">
                 <a>
                     <img src="#" class="aside_personal_area_img">
                     <span>Выход</span>
                 </a>
             </div>
-            <div class="blue_background-color padding10px margin_bottom20px">
-                <p>
+
+
+            <div class="blue_background_rgba_color padding10px margin_bottom20px">
+<!--             <div class="line"></div> -->
+                <p class="font_notification_subject_and_data">
                 Тема уведомления
                 </p>
-                <p>
-                Текст
+                <p class="font_notification_text">
+                Описание уведомления.Описание уведомления. Описание уведомления. Описание уведомления. Описание уведомления.
                 </p>
-                <span>
+                <span class="font_notification_subject_and_data">
                 до
                 </span>
-                <time>17:30</time>
-                <data>01.03.1995</data>
+                <time class="font_notification_subject_and_data">17:30</time>
+                <data class="font_notification_subject_and_data">01.03.1995</data>
             </div>
+
         </aside>
     </div>
     <!-- Events container end -->
