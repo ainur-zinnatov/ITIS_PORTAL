@@ -44,8 +44,8 @@ a{
 }
 
 a:hover, a:visited, a:focus{
-	text-decoration: none;
-	color: inherit;
+	text-decoration: none!important;
+	color: inherit!important;
 }
 
 .well{
@@ -530,12 +530,20 @@ label.checkbox-label{
 	padding-top: 5px;
 }
 
+.padding5px{
+	padding: 5px;
+}
+
 .padding10px{
 	padding: 10px;
 }
 
 .padding_bottom20px{
 	padding-bottom: 20px;
+}
+
+.margin_top20px{
+	margin-top: 20px;
 }
 
 .block_width20{
