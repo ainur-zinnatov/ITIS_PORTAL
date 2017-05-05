@@ -517,12 +517,6 @@ input[type="checkbox"]:checked + label:after {
 }
 /* personal area end */
 
-/*.line{
-	height: 2px;
-	background-color:#005F6E;
-	margin: -10px -10px 0px -10px;
-}*/
-
 .padding_top5px{
 	padding-top: 5px;
 }
