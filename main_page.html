@@ -16,9 +16,43 @@
 
     <!-- Fonts style -->
     <link href="style/fonts_style.css" rel="stylesheet">
+    
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
 </head>
 <body style="background-image: url(imgs/mp_background.jpg);">
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="imgs/Modals_exit_button.png" alt="img"/></button>
+        <p class="font_modal_header">Восстановление пароля</p>
+         <hr>
+      </div>
+      <div class="modal-body">
+      <p class="font_modal_text">Введите свое ФИО или адрес электронной почты, привязанный к профилю.</p>
+          <div class="form-group">
+                 <label class="sr-only sign_in_form" for="surname">Email</label>
+                 <input class="modal_input_block font_placeholder_student_search" id="surname" type="text" name="surname" placeholder="Email">
+          </div>
+      </div>
+      <div class="modal-footer">
+         <button class="modal_сonfirm_button  font_student_search_button">Потвердить</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+
     <div class="container">
     	<div class="row form">
  	 		<div class="col-md-6 col-md-offset-6">
@@ -30,7 +64,7 @@
 	  				<div class="form-group margin_left10px">
 		    			<label class="sr-only sign_in_form" for="password">Пароль</label>
 		    			<input type="password" class="form-control my_form_rules" id="password" placeholder="Пароль">
-                        <a href="#" class="light_blue_color" id="remember_password">Забыли?</a>
+                        <a href="#" class="light_blue_color" data-toggle="modal" data-target="#myModal" id="remember_password">Забыли?</a>
 	  				</div>
                     <div class="margin_left5px flexbox_aling_center">
 	  				    <input id="sign-button" type="image" name="sign_in" src="imgs/sign_in.png" width="25px;">
