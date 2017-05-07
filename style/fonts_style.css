@@ -309,3 +309,25 @@
 	color: #005F6E;
 	margin-top:-10px;
 }
+
+.font_modal_text_after_confirm_1{
+	font-family: 'Product_Sansi';
+	font-size: 19pt;
+	font-weight: 300;
+	color: #005F6E;
+	text-align: center;
+	padding-left:   40px;
+	padding-right:  40px;
+	padding-bottom: 20px;
+
+}
+.font_modal_text_after_confirm_2{
+	font-family: 'Segoe UI Light';
+	font-size: 19pt;
+	font-weight: 300;
+	color: #005F6E;
+	text-align: center;
+	padding-left:   40px;
+	padding-right:  40px;
+}
+

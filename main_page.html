@@ -23,6 +23,10 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
+    <script src="js/scripts.js"></script>
+
+
+
 </head>
 <body style="background-image: url(imgs/mp_background.jpg);">
 
@@ -37,16 +41,27 @@
         <p class="font_modal_header">Восстановление пароля</p>
          <hr>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" id="password_recovery_1">
       <p class="font_modal_text">Введите свое ФИО или адрес электронной почты, привязанный к профилю.</p>
           <div class="form-group">
                  <label class="sr-only sign_in_form" for="surname">Email</label>
                  <input class="modal_input_block font_placeholder_student_search" id="surname" type="text" name="surname" placeholder="Email">
           </div>
       </div>
-      <div class="modal-footer">
-         <button class="modal_сonfirm_button  font_student_search_button">Потвердить</button>
+      <div class="modal-footer" >
+         <button class="modal_сonfirm_button  font_student_search_button"  onclick="Confirm()">Потвердить</button>
       </div>
+
+
+
+       <div class="modal-body" id="password_recovery_2">
+      <p class="font_modal_text_after_confirm_1">На ваш адрес электронной почты было отправлено письмо.</p>
+      <p class="font_modal_text_after_confirm_2">В случае потери доступа к электронной почте обратитесь в деканат. </p>
+
+      </div>
+      
+
+
     </div>
   </div>
 </div>

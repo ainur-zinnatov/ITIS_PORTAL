@@ -580,7 +580,7 @@ label.checkbox-label{
 	width: 100%;
 	height: 30px;
 	  border: 1px solid #99E5F1;
-	  margin-bottom: 80px;
+	  margin-bottom: 30px;
 
 }
 
@@ -589,4 +589,8 @@ label.checkbox-label{
 	min-width: 137px;
 	height: 40px;
 	background-color: #14B6CB;
+}
+
+#password_recovery_2{
+	display: none;
 }
