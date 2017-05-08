@@ -24,6 +24,7 @@
 
   </head>
   <body>
+
     <div class="container">
 
       <div class="row">
@@ -152,7 +153,7 @@
                             <!-- extended collapse start  -->
                             <div>
                                 <a class=" font_button_checkbox_radio" role="button" data-toggle="collapse" href="#advanced_search" aria-expanded="false" aria-controls="collapseExample">
-                                >расширенный
+                                > расширенный
                                 </a>
                                 <!-- collapse open block start -->
                                 <div class="collapse" id="advanced_search">
@@ -184,7 +185,7 @@
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div class="flex_column">
+                                                    <div class="flex_column margin_left20px">
                                                         <div class="flex_row">
                                                             <input type="radio" name="budget" id="budget" checked>
                                                             <label for="budget">Бюджет</label>
@@ -200,7 +201,7 @@
 
                                         <div style="margin-left: 12px;" class="flex_column flex_justify_space_between">
 
-                                            <input type="checkbox" name="captain" value="староста" id="captain">
+                                            <input type="checkbox" name="captain" value="староста" id="captain" style="margin-right: 10px;">
                                             <label class="checkbox-label chb-label-font" for="captain">Староста</label>
 
                                             <input type="checkbox" name="captain2" value="профорг" id="captain2">
@@ -214,6 +215,7 @@
 
                                             <input type="checkbox" name="captain5" value="культорг" id="captain5">
                                             <label class="checkbox-label chb-label-font" for="captain5">Культорг</label>
+
                                         </div>
                                     </div>
                                 </div>
@@ -277,6 +279,111 @@
 
         </div>
 
+        <!-- modal add user start -->
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm small_modal" role="document">
+                <div class="modal-content small_modal_content">
+                    <div class="modal-header">
+                        <div class="flexbox_aling_center flex_justify_space_between margin_bottom5px">
+                            <p class="font_modal_header">Добавить пользователя</p>
+                            <button type="button" class="close" style="margin-left: 10px;" data-dismiss="modal" aria-hidden="true">
+                                <img src="imgs/Modals_exit_button.png" alt="img"/>
+                            </button>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="modal-body" id="add_user_body_block">
+                        <div class="form-group margin_bottom10px">
+                            <label class="sr-only sign_in_form" for="surname">Фамилия
+                            </label>
+                            <input class="input_block font_placeholder_student_search" id="surname" type="text" name="surname" placeholder="Фамилия">
+                        </div>
+                        <div class="form-group margin_bottom10px">
+                            <label class="sr-only sign_in_form" for="name">
+                            Имя
+                            </label>
+                            <input class="input_block font_placeholder_student_search" id="name" type="text"  name="name" placeholder="Имя">
+                        </div>
+                        <div class="form-group margin_bottom10px">
+                            <label class="sr-only sign_in_form" for="patronymic">
+                            Отчество
+                            </label>
+                            <input class="input_block font_placeholder_student_search" type="text" id="patronymic" name="patronymic" placeholder="Отчество">
+                        </div>
+                        <div class="flex_row font_button_checkbox_radio">
+                            <div class="flex_column">
+                                <div class="flex_row">
+                                    <input type="radio" name="female_1" id="female_1" checked>
+                                    <label for="female_1">Мужской</label>
+                                </div>
+                                <div class="flex_row">
+                                    <input type="radio" name="male_1" id="male_1">
+                                    <label for="male_1">Женский</label>
+                                </div>
+
+                                <div class="font_placeholder_student_search margin_bottom5px">
+                                    <select class="input_block ">
+                                        <option>Курс</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                                <div class="font_placeholder_student_search margin_bottom5px">
+                                    <select class="input_block">
+                                        <option>Группа</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <input type="radio" name="budget_1" id="budget_1" checked>
+                                    <label for="budget_1">Бюджет</label>
+                                </div>
+                                <div class="flex_row">
+                                    <input type="radio" name="contract_1" id="contract_1">
+                                    <label for="contract_1">Контракт</label>
+                                </div>
+
+                                <div class="margin_bottom5px">
+                                    <input type="checkbox" name="captain" value="староста" id="captain_1">
+                                    <label class="checkbox-label chb-label-font" for="captain_1">Староста</label>
+                                </div>
+
+                                <div class="margin_bottom5px">
+                                    <input type="checkbox" name="captain2" value="профорг" id="captain_2">
+                                    <label class="checkbox-label chb-label-font" for="captain_2">Профорг</label>
+                                </div>
+
+                                <div class="margin_bottom5px">
+                                    <input type="checkbox" name="captain3" value="спорторг" id="captain_3">
+                                    <label class="checkbox-label chb-label-font" for="captain_3">Спорторг</label>
+                                </div>
+
+                                <div class="margin_bottom5px">
+                                    <input type="checkbox" name="captain4" value="соцорг" id="captain_4">
+                                    <label class="checkbox-label chb-label-font" for="captain_4">Соцорг</label>
+                                </div>
+                                <div class="margin_bottom5px">
+                                    <input type="checkbox" name="captain5" value="культорг" id="captain_5">
+                                    <label class="checkbox-label chb-label-font" for="captain_5">Культорг</label>
+                                </div>    
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer" >
+                        <button class="modal_сonfirm_button  font_student_search_button" onclick="">Добавить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal add user end -->
+
         <aside class="aside_personal_area_main_block font_aside_personal_area">
             <div>
                 <a href="#" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color">
@@ -285,7 +392,7 @@
                 </a>
             </div>
             <div>
-                <a href="#" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color">
+                <a href="" type="button" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color" data-toggle="modal" data-target=".bs-example-modal-sm">
                     <img src="imgs/Worker_Profile_add_user.png" class="aside_personal_area_img">
                     <span>Добавить пользователя</span>
                 </a>
