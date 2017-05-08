@@ -55,6 +55,12 @@ a:hover, a:visited, a:focus{
 	box-shadow: none;
 }
 
+.hood{
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 8px;
+}
+
 .white_background_color{
 	background-color: white;
 }
@@ -145,7 +151,6 @@ a:hover, a:visited, a:focus{
 	height: 32px;
 }
 
-
 .form-inline > .form-group > input{
 	height: auto;
 	max-height: 33px;
@@ -153,10 +158,12 @@ a:hover, a:visited, a:focus{
 	border-radius: 0;
 	box-shadow: inset 0 0 3px 0 #c3c3c3;
 }
+
 .form-inline > input{
 	height: auto;
 	max-height: 25px;
 }
+
 .form-group > a{
 	margin-left: -65px;
 	margin-right: 5px;
@@ -235,17 +242,21 @@ a:hover, a:visited, a:focus{
 #info-logo{
 	margin-right: 15px;
 	margin-left: 5px;
-	width:105px;
+	width: 105px;
 	height: auto;
 	max-height: 105px;
+}
+
+p[id=font_info]{
+	margin-bottom: 0px;
+}
+
+p[id=font_info_itis]{
+	margin-bottom: 5px;
 }
 /*info style end*/
 
 /* footer style start*/
-#footer{
-	height: 72px;
-}
-
 #footer_hr{
 	margin-top: 16px;
 }
@@ -319,10 +330,6 @@ aside{
 	background-color: #14B6CB;
 	margin-right: 10px;
 	padding: 4px 6px 4px 6px;
-}
-
-.margin_bottom20px{
-	margin-bottom: 20px;
 }
 /* aside end */
 
@@ -473,25 +480,25 @@ label {
 }
 
 input[type=checkbox]{
-	/*position:absolute;*/
-	/*z-index:-1000;*/
-	/*left:-1000px;*/
+	position:absolute;
+	z-index:-1000;
+	left:-1000px;
 	overflow: hidden;
-	/*clip: rect(0 0 0 0);*/
-	/*height:1px;*/
-	/*width:1px;*/
+	clip: rect(0 0 0 0);
+	height:1px;
+	width:1px;
 	margin:-1px;
-	/*padding:0;*/
-	/*border:0;*/
+	padding:0;
+	border:0;
 }
 
 input[type=checkbox] + label {
 	padding-left: 25px;
-	/*height: 20px;*/
+	height: 20px;
 	display: inline-block;
 	line-height: 20px;
 	background-repeat: no-repeat;
-	/*background-position: 0 0;*/
+	background-position: 0 0;
 	font-size: 20px;
 	/*vertical-align: center;*/
 	cursor: pointer;
@@ -510,7 +517,6 @@ label.checkbox-label{
 	-ms-user-select: none;
 	user-select: none;
 }
-
 /* checkbox end */
 
 /* personal area start */
@@ -561,6 +567,14 @@ label.checkbox-label{
 	margin-left: 5px;
 }
 
+.margin_bottom20px{
+	margin-bottom: 20px;
+}
+
+.margin_bottom5px{
+	margin-bottom: 5px;
+}
+
 .block_width20{
 	width: 20%;
 }
@@ -570,6 +584,7 @@ label.checkbox-label{
 }
 /* indents and sizes end */
 
+/* remember passsword start */
 #remember_password{
 	position: relative;
 	top: 2px;
@@ -579,3 +594,19 @@ label.checkbox-label{
 .text_overflow{
 	overflow: hidden;
 }
+
+.modal_input_block{
+	width: 100%;
+	height: 30px;
+	  border: 1px solid #99E5F1;
+	  margin-bottom: 30px;
+
+}
+
+.modal_сonfirm_button{
+	display: inline-flex;
+	min-width: 137px;
+	height: 40px;
+	background-color: #14B6CB;
+}
+/* remember passsword start */
