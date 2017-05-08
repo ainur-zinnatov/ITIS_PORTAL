@@ -545,8 +545,8 @@ label.checkbox-label{
 	padding-top: 5px;
 }
 
-.padding5px{
-	padding: 5px;
+.padding3px5px{
+	padding: 3px 5px 3px 5px;
 }
 
 .padding10px{
