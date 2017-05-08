@@ -267,7 +267,7 @@
 	font-family: 'Segoe UI Light';
 	font-size: 18pt;
 	font-weight: normal;
-	color: #B3B3B3;
+	color: #005F6E;
 }
 
 
@@ -292,3 +292,42 @@
 	font-weight: normal;
 	color: #005f6f;
 }
+
+
+.font_modal_header{
+	font-family: 'DINPro-Regular';
+	font-size: 18.6pt;
+	font-weight: 100;
+	margin-top: -10px;
+	margin-bottom: 0px;
+}
+
+.font_modal_text{
+	font-family: 'Product_Sansi';
+	font-size: 19pt;
+	font-weight: 300;
+	color: #005F6E;
+	margin-top:-10px;
+}
+
+.font_modal_text_after_confirm_1{
+	font-family: 'Product_Sansi';
+	font-size: 19pt;
+	font-weight: 300;
+	color: #005F6E;
+	text-align: center;
+	padding-left:   40px;
+	padding-right:  40px;
+	padding-bottom: 20px;
+
+}
+.font_modal_text_after_confirm_2{
+	font-family: 'Segoe UI Light';
+	font-size: 19pt;
+	font-weight: 300;
+	color: #005F6E;
+	text-align: center;
+	padding-left:   40px;
+	padding-right:  40px;
+}
+

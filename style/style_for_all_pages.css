@@ -580,3 +580,22 @@ label.checkbox-label{
 	top: 2px;
 	right: 5px;
 }
+
+.modal_input_block{
+	width: 100%;
+	height: 30px;
+	  border: 1px solid #99E5F1;
+	  margin-bottom: 30px;
+
+}
+
+.modal_сonfirm_button{
+	display: inline-flex;
+	min-width: 137px;
+	height: 40px;
+	background-color: #14B6CB;
+}
+
+#password_recovery_2{
+	display: none;
+}
