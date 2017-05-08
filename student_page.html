@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Личный кабинет</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main style -->
+    <link href="style/style_for_all_pages.css" rel="stylesheet">
+
+    <!-- Fonts style -->
+    <link href="style/fonts_style.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12" id="logo_and_abbr">
+            <img src="imgs/mini_logo.png" id="mini_logo">
+            <p id="font_abbr_logo_small">
+            ВЫСШАЯ ШКОЛА ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ И ИНФОРМАЦИОННЫХ СИСТЕМ
+            </p>
+        </div>
+      </div>
+
+    <!-- Menu -->
+    <div class="row" >
+        <div class="col-md-12">
+            <nav id="menu" class="flex_justify_space_between">
+                <div id="font_menu">
+                    <a href="#" class="menu_link">НОВОСТИ
+                    </a>
+                    <a href="#" class="menu_link">СОБЫТИЯ
+                    </a>
+                    <a href="#" class="menu_link">СООБЩЕСТВА
+                    </a>
+                    <a href="#" class="menu_link">ПРОЕКТЫ
+                    </a>
+
+                </div>
+
+                <div id="font_menu_username">
+                    <a href="#" class="flex_row">Фамилия Имя
+                    <div id="message_circle">
+                    3
+                    </div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Menu end -->
+
+    <!-- Events container -->
+    <div class="main_block_with_flexbox">
+        <div>
+            <!-- collapse start -->
+            <div class="personal_area_block font_worker_search_students_and_groups_header">
+
+                <a role="button" data-toggle="collapse" href="#groups_adn_projects" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="flex_row flexbox_aling_center white_background_color shadow">
+                        <div class="padding5px" style="width: 370px;">
+                        Сообщества
+                        </div>
+                        <div>
+                        Проекты
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <!-- collapse open block start -->
+            <div class="collapse font_group_project_name" id="groups_adn_projects">
+                <div class="well flex_row flex_justify_space_between blue_background_rgba_color personal_area_block border_radius_none">
+                    <div>
+
+                        <div class="personal_area_min_block flex_row shadow">
+                            <img src="#" class="personal_area_min_block_img">
+                            <p class="padding10px">
+                            Название сообщества
+                            </p>
+                        </div>
+                        <div class="personal_area_min_block flex_row shadow">
+                            <img src="#" class="personal_area_min_block_img">
+                            <p class="padding10px">
+                            Название сообщества
+                            </p>
+                        </div>
+
+                    </div>
+                    <div>
+
+                        <div class="personal_area_min_block flex_row shadow">
+                            <img src="#" class="personal_area_min_block_img">
+                            <p class="padding10px">
+                            Название проекта
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- collapse open block end -->
+            <!-- collapse end -->
+
+        </div>
+
+        <aside class="aside_personal_area_main_block font_aside_personal_area">
+            <div>
+                <a href="#" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color">
+                    <img src="imgs/Profile.png" class="aside_personal_area_img">
+                    <span>Портфолио</span>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color">
+                    <img src="imgs/.png" class="aside_personal_area_img">
+                    <span>Получить справку</span>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color">
+                    <img src="#" class="aside_personal_area_img">
+                    <span>Выход</span>
+                </a>
+            </div>
+
+
+            <div class="blue_background_rgba_color padding10px margin_bottom20px">
+<!--             <div class="line"></div> -->
+                <p class="font_notification_subject_and_data">
+                Тема уведомления
+                </p>
+                <p class="font_notification_text">
+                Описание уведомления.Описание уведомления. Описание уведомления. Описание уведомления. Описание уведомления.
+                </p>
+                <span class="font_notification_subject_and_data">
+                до
+                </span>
+                <time class="font_notification_subject_and_data">17:30</time>
+                <data class="font_notification_subject_and_data">01.03.1995</data>
+            </div>
+
+        </aside>
+    </div>
+    <!-- Events container end -->
+
+		<div class="row" id="info">
+              <img id="info-logo" src="imgs/info_logo.png">
+                <div>
+                    <p id='font_info_itis'>
+                        Высшая школа информационных технологий и информационных систем (ИТИС)
+                    </p>
+                      <p id="font_info">
+                          Адрес: 420008, Казань, ул. Кремлевская, 18.<br>
+
+                          Телефон: (843) 233-71-09<br>
+
+                          Факс: (843) 292-44-48<br>
+
+                          Адрес электронной почты: public.mail@kpfu.ru
+                      </p>
+                </div>
+        </div>
+		<div class="row" id="footer">
+            <div class="col-md-12" id='font_footer'>
+                <hr id="footer_hr">
+                <div class="flex_justify_space_between" id="footer_margin">
+                    <span>
+                    Казанский федеральный университет 2017 ©
+                    </span>
+                    <span>
+                    <a href="#" class="footer_link">ОБРАТНАЯ СВЯЗЬ</a>
+                    <a href="#" class="footer_link">ТЕХНИЧЕСКАЯ ПОДДЕРЖКА</a>
+                    <a href="#" class="footer_link">СОГЛАШЕНИЕ</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+	</div>
+  <!-- container end -->
+
+    </body>
+</html>

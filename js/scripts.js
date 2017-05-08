@@ -4,3 +4,4 @@
     document.getElementsByClassName('modal_сonfirm_button')[0].style.display = "none"
 
    }
+
