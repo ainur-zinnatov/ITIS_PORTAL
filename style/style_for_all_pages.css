@@ -328,8 +328,10 @@ aside{
 	height: 40px;
 	background-color: #14B6CB;
 	margin-right: 10px;
-	padding: 4px 6px 4px 6px;
+	padding: 6px 6px 6px 6px;
 }
+
+
 /* aside end */
 
 /* events style start */
@@ -542,8 +544,8 @@ label.checkbox-label{
 	padding-top: 5px;
 }
 
-.padding5px{
-	padding: 5px;
+.padding3px5px{
+	padding: 3px 5px 3px 5px;
 }
 
 .padding10px{

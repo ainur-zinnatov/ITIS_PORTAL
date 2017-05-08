@@ -64,6 +64,25 @@
     </div>
 </div>
 <!-- Modal End -->
+<!-- Modal -->
+<div class="modal fade" id="myRegistrationModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="imgs/Modals_exit_button.png" alt="img"/>
+                </button>
+                <p class="font_modal_header">Регистрация</p>
+                <hr>
+            </div>
+           <div class="modal-body" style="padding-top: 40px">
+                <p class="font_modal_text_after_confirm_1">Такой пользователь уже существует.</p>
+                <p class="font_modal_text_after_confirm_2">Проверьте указанный email на наличие письма с паролем для доступа в систему.  </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Modal End -->
 
 
     <div class="container">
@@ -79,9 +98,12 @@
 		    			<input type="password" class="form-control my_form_rules" id="password" placeholder="Пароль">
                         <a href="#" class="light_blue_color" data-toggle="modal" data-target="#myModal" id="remember_password">Забыли?</a>
 	  				</div>
-                    <div class="margin_left5px light_blue_color flexbox_aling_center">
-	  				    <input id="sign-button" type="image" name="sign_in" src="imgs/sign_in.png" width="25px;">
-                    </div>
+
+            <div class="margin_left5px flexbox_aling_center">
+                <a href="#"   data-toggle="modal" data-target="#myRegistrationModal" id="remember_password">
+	  				        <input  id="sign-button" type="image" name="sign_in" src="imgs/sign_in.png" width="25px;">
+                </a>
+            </div>
 				</form>
  	 		</div>
 		</div>
