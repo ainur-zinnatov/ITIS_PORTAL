@@ -630,6 +630,10 @@ label.checkbox-label{
 	/*min-height: 600px;*/
 }
 
+.modal-header .close{
+	margin-top: -5px;
+}
+
 .modal-footer{
 	display: block!important;
 	position: relative;
@@ -645,6 +649,7 @@ label.checkbox-label{
 	margin-right: 20px;
 	margin-bottom: 10px;
 }
+
 /* modal add user start */
 
 /* radio style start */
