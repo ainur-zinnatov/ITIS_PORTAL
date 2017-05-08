@@ -55,6 +55,12 @@ a:hover, a:visited, a:focus{
 	box-shadow: none;
 }
 
+.hood{
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-left: 8px;
+}
+
 .white_background_color{
 	background-color: white;
 }
@@ -574,7 +580,6 @@ label.checkbox-label{
 	top: 2px;
 	right: 5px;
 }
-
 
 .modal_input_block{
 	width: 100%;
