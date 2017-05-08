@@ -396,7 +396,7 @@ aside{
 }
 
 .group_img{
-	width: 204px;
+	width: 210px;
 	margin: -10px;
 	margin-right: 10px;
 }
@@ -412,6 +412,7 @@ aside{
 .group_text{
 	margin-top: 10px;
 	margin-right: 100px;
+	height: 84px;
 }
 
 #one_group_direction{
@@ -472,28 +473,28 @@ label {
 }
 
 input[type=checkbox]{
-	position:absolute;
-	z-index:-1000;
-	left:-1000px;
+	/*position:absolute;*/
+	/*z-index:-1000;*/
+	/*left:-1000px;*/
 	overflow: hidden;
-	clip: rect(0 0 0 0);
-	height:1px;
-	width:1px;
+	/*clip: rect(0 0 0 0);*/
+	/*height:1px;*/
+	/*width:1px;*/
 	margin:-1px;
-	padding:0;
-	border:0;
+	/*padding:0;*/
+	/*border:0;*/
 }
 
 input[type=checkbox] + label {
-	padding-left:25px;
-	height:20px;
-	display:inline-block;
-	line-height:20px;
-	background-repeat:no-repeat;
-	background-position: 0 0;
-	font-size:20px;
-	vertical-align:middle;
-	cursor:pointer;
+	padding-left: 25px;
+	/*height: 20px;*/
+	display: inline-block;
+	line-height: 20px;
+	background-repeat: no-repeat;
+	/*background-position: 0 0;*/
+	font-size: 20px;
+	/*vertical-align: center;*/
+	cursor: pointer;
 }
 
 input[type=checkbox]:checked + label {
@@ -573,4 +574,8 @@ label.checkbox-label{
 	position: relative;
 	top: 2px;
 	right: 5px;
+}
+
+.text_overflow{
+	overflow: hidden;
 }
