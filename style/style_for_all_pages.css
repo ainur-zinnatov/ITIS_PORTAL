@@ -310,6 +310,8 @@ p[id=font_info_itis]{
 	display: flex;
 	flex-direction: row;
 	align-items: flex-end;
+	margin-bottom: 30px;
+	margin-top: 20px;
 }
 
 #mini_logo{
@@ -520,7 +522,7 @@ input[type=checkbox] + label {
 	line-height: 20px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	font-size: 20px;
+	/*font-size: 20px;*/
 	/*vertical-align: center;*/
 	cursor: pointer;
 }
@@ -564,8 +566,9 @@ label.checkbox-label{
 	padding-top: 5px;
 }
 
-.padding3px5px{
-	padding: 3px 5px 3px 5px;
+.padding6px10px{
+	padding: 6px 10px 6px 10px;
+	margin-top: 3px;
 }
 
 .padding10px{
