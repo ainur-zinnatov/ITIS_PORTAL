@@ -27,6 +27,14 @@ body{
 	width: 100%;
 }
 
+.close{
+	opacity: 1;
+}
+
+.close:focus, :hover{
+	opacity: 1;
+}
+
 button{
 	display: flex;
 	justify-content: center;
@@ -110,6 +118,12 @@ input[type=radio]{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+}
+
+.flexbox_aling_start{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
 }
 
 .flex_row{
@@ -482,7 +496,7 @@ aside{
 }
 
 .one_group_participant_img{
-	padding-right: 10px;
+	padding-right: 13px;
 	min-height: 50px;
 }
 
