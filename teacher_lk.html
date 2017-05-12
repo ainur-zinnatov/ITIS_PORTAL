@@ -68,8 +68,30 @@
     <!-- Events container -->
     <div class="main_block_with_flexbox">
         <div>
+
             <!-- collapse start -->
             <div class="personal_area_block font_worker_search_students_and_groups_header">
+
+                <a role="button" data-toggle="collapse" href="#timetable" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="flex_row flexbox_aling_center white_background_color shadow">
+                        <div class="padding3px5px">
+                        Расписание
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <!-- collapse open block start -->
+            <div class="collapse font_group_project_name" id="timetable">
+                <div class="well flex_row flex_justify_space_between blue_background_rgba_color personal_area_block border_radius_none">
+                    <div style="height: 300px;"></div>
+                </div>
+            </div>
+            <!-- collapse open block end -->
+            <!-- collapse end -->
+
+            <!-- collapse start -->
+            <div class="personal_area_block font_worker_search_students_and_groups_header margin_top20px">
 
                 <a role="button" data-toggle="collapse" href="#groups_adn_projects" aria-expanded="false" aria-controls="collapseExample">
                     <div class="flex_row flexbox_aling_center white_background_color shadow">
@@ -100,6 +122,12 @@
                             Название сообщества
                             </p>
                         </div>
+                        <div class="personal_area_min_block flex_row shadow">
+                            <img src="#" class="personal_area_min_block_img">
+                            <p class="padding10px">
+                            Название сообщества
+                            </p>
+                        </div>
 
                     </div>
                     <div>
@@ -118,7 +146,7 @@
             <!-- collapse end -->
 
             <!-- collapse start -->
-            <div class="personal_area_block font_worker_search_students_and_groups_header margin_top20px">
+            <div class="personal_area_block font_worker_search_students_and_groups_header margin_top20px margin_bottom20px">
                     <a role="button" data-toggle="collapse" href="#students_search" aria-expanded="false" aria-controls="collapseExample">
                         <div class="flexbox_aling_center white_background_color shadow">
                             <span class="padding3px5px">
@@ -128,7 +156,7 @@
                     </a>
             </div>
             <!-- collapse open block start -->
-            <div class="collapse" id="students_search">
+            <div class="collapse" style="margin-top: -20px;" id="students_search">
                 <div class="well">
                     <!-- white collapse block start -->
                     <div class="hood white_background_color shadow">
@@ -174,26 +202,36 @@
                                             </div>
 
                                             <div class="flex_row font_button_checkbox_radio">
-                                                <div class="flex_column ">
+                                                <div class="flex_column margin_right20px">
                                                     <div class="flex_row">
-                                                        <input type="radio" name="female" id="female" checked>
-                                                        <label for="female">Мужской</label>
+                                                        <label class="control control-radio">
+                                                        Мужской
+                                                        <input type="radio" name="gender" checked="checked" />
+                                                        <div class="control_indicator"></div>
+                                                        </label>
                                                     </div>
                                                     <div class="flex_row">
-                                                        <input type="radio" name="male" id="male">
-                                                        <label for="male">Женский</label>
+                                                        <label class="control control-radio">
+                                                        Женский
+                                                        <input type="radio" name="gender"/>
+                                                        <div class="control_indicator"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
-                                                <div>
-                                                    <div class="flex_column margin_left20px">
-                                                        <div class="flex_row">
-                                                            <input type="radio" name="budget" id="budget" checked>
-                                                            <label for="budget">Бюджет</label>
-                                                        </div>
-                                                        <div class="flex_row">
-                                                            <input type="radio" name="contract" id="contract">
-                                                            <label for="contract">Контракт</label>
-                                                        </div>
+                                                <div class="flex_column">
+                                                    <div class="flex_row">
+                                                        <label class="control control-radio">
+                                                        Бюджет
+                                                        <input type="radio" name="pay" checked="checked"/>
+                                                        <div class="control_indicator"></div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="flex_row">
+                                                        <label class="control control-radio">
+                                                        Контракт
+                                                        <input type="radio" name="pay"/>
+                                                        <div class="control_indicator"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -226,12 +264,26 @@
                     <!-- white collapse block end -->
 
                     <!-- table start -->
-                    <div class="blue_background_rgba_color personal_area_block">
-                                <table class="table font_student_list block_width100" rules="all" bordercolor="#008EA5">
+                    <div class="blue_background_rgba_color personal_area_block margin_bottom20px">
+                                <table class="font_student_list block_width100" rules="all" bordercolor="#008EA5">
 
                                     <tr>
-                                        <td>№</td>
-                                        <td>ФИО</td>
+                                        <td>
+                                        №
+                                        </td>
+                                        <td>
+
+                                            <div class="flex_row flexbox_aling_center">
+                                                <span class="block_width100"> 
+                                                ФИО
+                                                </span>
+                                                <span class=" flex_justify_end block_width20">
+                                                    <input type="checkbox" name="fio0" id="fio0">
+                                                    <label for="fio0" class="padding_top5px checkbox-label chb-label-font"></label>
+                                                </span>
+                                            </div>
+
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -286,7 +338,7 @@
                     <div class="modal-header">
                         <div class="flexbox_aling_center flex_justify_space_between margin_bottom5px">
                             <p class="font_modal_header font_modal_header_small">Добавить пользователя</p>
-                            <button type="button" class="close" style="margin-left: 10px;" data-dismiss="modal" aria-hidden="true">
+                            <button type="button" class="close margin_left10px" data-dismiss="modal" aria-hidden="true">
                                 <img src="imgs/Modals_exit_button.png" alt="img"/>
                             </button>
                         </div>

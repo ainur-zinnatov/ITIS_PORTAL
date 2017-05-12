@@ -16,6 +16,11 @@
     <!-- Fonts style -->
     <link href="style/fonts_style.css" rel="stylesheet">
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/spoiler.js"></script>
+
   </head>
   <body>
     <div class="container">
@@ -62,10 +67,10 @@
     <div>
         <div class="shadow">
             <div id="one_group_header_img">
-                <img src="#">
+                <img src="imgs/wide_ph.png" id="one_group_main_img">
             </div>
             <div class="flex_row flex_justify_space_between flexbox_aling_center" id="one_group_header">
-                <div>
+                <div class="font_one_page_header">
                 Название сообщества
                 </div>
                 <div class="flex_row">
@@ -81,37 +86,59 @@
         </div>
         <div class="flex_justify_space_between">
             <div>
-                <div id="one_group_direction" class="event_block border_radius_none shadow_none ">
-                Описание
+                <div id="one_group_direction" class="event_block border_radius_none shadow_none font_group_direction">
+                Описание. Описание. Описание. Описание. Описание. Описание. Описание. Описание. Описание. Описание. Описание.
                 </div>
-                <div class="event_block border_radius_none">
-                    <div id="event_header" class=" flex_row">
-                        <p id="font_event_header">Заголовок новости
+                <div class="event_block">
+                    <div id="event_header border_radius_none" class=" flex_row">
+                        <p class="font_event_header">Заголовок новости
                         </p>
-                        <p id="font_events_tag">#тег
+                        <p class="font_events_tag">#тег
+                        </p>
+                        <p class="font_events_tag">#тег
+                        </p>
+                        <p class="font_events_tag">#тег
                         </p>
                     </div>
                     <hr class="event_hr">
-                    <p class="font_events_text group_text">Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости...</p>
-                    <div class="flex_justify_end">
-                        <span id="font_event_author">Автор события
-                        </span>
-                        <data class='font_event_author_time'>
-                        16.06.2017
-                        </data>
-                        <time class='font_event_author_time'>
-                        16:24
-                        </time>
+                    <div class="font_events_text group_text">
+                    Краткое описание новости. Краткое описание новости. Краткое описание. Краткое описание новости. Краткое описание новости новости новости. Краткое описание новости. Краткое описание. Краткое описание новости...
+                    </div>
+                    <div>
+                        <div class="flex_column">
+                            <!-- <div class="flex_column"> -->
+                            <div class="spoiler-body font_events_text" style="margin-right: 50px;">
+                                Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости
+                            </div>
+                            <div class="flex_justify_space_between flexbox_aling_center margin_top10px">
+                                <div class="spoiler-title closed font_spoiler_cl_op">
+                                    <img src="imgs/arrow_open.png" alt="open" style="margin-right:5px;">
+                                    <span>
+                                    развернуть
+                                    </span>
+                                </div>
+                                <div class="flex_justify_end">
+                                    <span id="font_event_author">Автор события
+                                    </span>
+                                    <data class='font_event_author_time'>
+                                    16.06.2017
+                                    </data>
+                                    <time class='font_event_author_time'>
+                                    16:24
+                                    </time>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="event_block_images flex_justify_space_between ">
-                        <img src="imgs/news_img.png" class="event_img" alt="img" >
-                        <img src="imgs/news_img.png" class="event_img" alt="img" >
-                        <img src="imgs/news_img.png" class="event_img" alt="img" >
+                        <img src="imgs/square_ph.png" class="event_img" alt="img" >
+                        <img src="imgs/square_ph.png" class="event_img" alt="img" >
+                        <img src="imgs/square_ph.png" class="event_img" alt="img" >
                     </div>
-                </div>
+            </div>
                 <div class="event_block border_radius_none">
                     <div id="event_header" class=" flex_row">
-                        <p id="font_event_header">Заголовок события
+                        <p class="font_event_header">Заголовок события
                         </p>
                         <p id="font_events_tag">#тег
                         </p>
@@ -148,35 +175,38 @@
                         </time>
                     </div>
                     <div class="event_block_images flex_justify_space_between">
-                        <img src="imgs/news_img.png" class="event_img" alt="img" >
-                        <img src="imgs/news_img.png" class="event_img" alt="img" >
-                        <img src="imgs/news_img.png" class="event_img" alt="img" >
+                        <img src="imgs/square_ph.png" class="event_img" alt="img" >
+                        <img src="imgs/square_ph.png" class="event_img" alt="img" >
+                        <img src="imgs/square_ph.png" class="event_img" alt="img" >
                     </div>
                 </div>
             </div>
-            <div>
+            <aside>
                 <div class="shadow one_group_right_block">
-                    <p>
+                    <p class="font_aside_header">
                     Администрация
                     </p>
                     <hr>
-                    <div class="flex_row flexbox_aling_center one_group_participant_info_block">
-                        <img src="#" class="one_group_participant_img">
-                        <p>
+                    <a href="#" class="flex_row flexbox_aling_center one_group_participant_info_block">
+                        <img src="imgs/small_ph.png" class="one_group_participant_img">
+                        <span class="font_aside_black_text">
                         Имя фамилия
-                        </p>
-                    </div>
+                        </span>
+                    </a>
                 </div>
                 <div class="shadow one_group_right_block">
-                    <p>
+                    <p class="font_aside_header">
                     Документы
                     </p>
                     <hr>
-                    <div class="one_group_doc_min_block">
-                    Название документа
-                    </div>
+                    <a href="#" class="one_group_doc_min_block font_aside_blue_text flex_justify_space_between flexbox_aling_center">
+                        <span>
+                        Название документа
+                        </span>
+                        <img src="imgs/dl_cursor.png" width="13px" height="13px">
+                    </a>
                 </div>
-            </div>
+            </aside>
         </div>
     </div>
     <!-- Events container end -->

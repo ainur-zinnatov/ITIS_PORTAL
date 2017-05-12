@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Личный кабинет</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main style -->
+    <link href="style/style_for_all_pages.css" rel="stylesheet">
+
+    <!-- Fonts style -->
+    <link href="style/fonts_style.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12" id="logo_and_abbr">
+            <img src="imgs/mini_logo.png" id="mini_logo">
+            <p id="font_abbr_logo_small">
+            ВЫСШАЯ ШКОЛА ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ И ИНФОРМАЦИОННЫХ СИСТЕМ
+            </p>
+        </div>
+      </div>
+
+    <!-- Menu -->
+    <div class="row" >
+        <div class="col-md-12">
+            <nav id="menu" class="flex_justify_space_between flexbox_aling_center">
+                <div id="font_menu">
+                    <a href="#" class="menu_link">НОВОСТИ
+                    </a>
+                    <a href="#" class="menu_link">СОБЫТИЯ
+                    </a>
+                    <a href="#" class="menu_link">СООБЩЕСТВА
+                    </a>
+                    <a href="#" class="menu_link">ПРОЕКТЫ
+                    </a>
+
+                </div>
+
+                <div id="font_menu_username">
+                    <a href="#" class="flex_row flexbox_aling_center">
+                        <span>Фамилия Имя</span>
+                        <div id="message_circle">
+                        3
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Menu end -->
+
+    <!-- Events container -->
+    <div class="main_block_with_flexbox">
+        <div>
+            <!-- collapse start -->
+            <div class="personal_area_block font_worker_search_students_and_groups_header">
+
+                <a role="button" data-toggle="collapse" href="#groups_adn_projects" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="flex_row flexbox_aling_center white_background_color shadow">
+                        <div class="padding3px5px" style="width: 370px;">
+                        Сообщества
+                        </div>
+                        <div>
+                        Проекты
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <!-- collapse open block start -->
+            <div class="collapse font_group_project_name" id="groups_adn_projects">
+                <div class="well flex_row flex_justify_space_between blue_background_rgba_color personal_area_block border_radius_none">
+                    <div>
+
+                        <div class="personal_area_min_block flex_row shadow">
+                            <img src="#" class="personal_area_min_block_img">
+                            <p class="padding10px">
+                            Название сообщества
+                            </p>
+                        </div>
+                        <div class="personal_area_min_block flex_row shadow">
+                            <img src="#" class="personal_area_min_block_img">
+                            <p class="padding10px">
+                            Название сообщества
+                            </p>
+                        </div>
+                        <div class="personal_area_min_block flex_row shadow">
+                            <img src="#" class="personal_area_min_block_img">
+                            <p class="padding10px">
+                            Название сообщества
+                            </p>
+                        </div>
+
+                    </div>
+                    <div>
+
+                        <div class="personal_area_min_block flex_row shadow">
+                            <img src="#" class="personal_area_min_block_img">
+                            <p class="padding10px">
+                            Название проекта
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- collapse open block end -->
+            <!-- collapse end -->
+
+            <!-- collapse start -->
+            <div class="personal_area_block font_worker_search_students_and_groups_header margin_top20px margin_bottom20px">
+                    <a role="button" data-toggle="collapse" href="#students_search" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="flexbox_aling_center white_background_color shadow">
+                            <span class="padding3px5px">
+                            Поиск студентов
+                            </span>
+                        </div>
+                    </a>
+            </div>
+            <!-- collapse open block start -->
+            <div class="collapse" style="margin-top: -20px;" id="students_search">
+                <div class="well">
+                    <!-- white collapse block start -->
+                    <div class="hood white_background_color shadow">
+                            <div class="flex_row flex_justify_space_between">
+                                <div class="font_placeholder_student_search">
+                                    <select class="input_block ">
+                                        <option>Пункт 1</option>
+                                        <option>Пункт 2</option>
+                                    </select>
+                                </div>
+                                <div class="font_placeholder_student_search">
+                                    <select class="input_block">
+                                        <option>Пункт 1</option>
+                                        <option>Пункт 2</option>
+                                    </select>
+                                </div>
+                                <button class="mini_button font_student_search_button">
+                                    Найти
+                                </button>
+                            </div>
+
+                            <!-- extended collapse start  -->
+                            <div>
+                                <a class=" font_button_checkbox_radio" role="button" data-toggle="collapse" href="#advanced_search" aria-expanded="false" aria-controls="collapseExample">
+                                > расширенный
+                                </a>
+                                <!-- collapse open block start -->
+                                <div class="collapse" id="advanced_search">
+                                    <div class="well flex_row white_background_color">
+                                        <div class="flex_column">
+
+                                            <div class="form-group">
+                                                <label class="sr-only sign_in_form" for="surname">Фамилия</label>
+                                                <input class="input_block font_placeholder_student_search" id="surname" type="text" name="surname" placeholder="Фамилия">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="sr-only sign_in_form" for="name">Имя</label>
+                                                <input class="input_block font_placeholder_student_search" id="name" type="text"  name="name" placeholder="Имя">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="sr-only sign_in_form" for="patronymic">Отчество</label>
+                                                <input class="input_block font_placeholder_student_search" type="text" id="patronymic" name="patronymic" placeholder="Отчество">
+                                            </div>
+
+                                            <div class="flex_row font_button_checkbox_radio">
+                                                <div class="flex_column margin_right20px">
+                                                    <div class="flex_row">
+                                                        <label class="control control-radio">
+                                                        Мужской
+                                                        <input type="radio" name="gender" checked="checked" />
+                                                        <div class="control_indicator"></div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="flex_row">
+                                                        <label class="control control-radio">
+                                                        Женский
+                                                        <input type="radio" name="gender"/>
+                                                        <div class="control_indicator"></div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="flex_column">
+                                                    <div class="flex_row">
+                                                        <label class="control control-radio">
+                                                        Бюджет
+                                                        <input type="radio" name="pay" checked="checked"/>
+                                                        <div class="control_indicator"></div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="flex_row">
+                                                        <label class="control control-radio">
+                                                        Контракт
+                                                        <input type="radio" name="pay"/>
+                                                        <div class="control_indicator"></div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div style="margin-left: 12px;" class="flex_column flex_justify_space_between">
+
+                                            <input type="checkbox" name="captain" value="староста" id="captain" style="margin-right: 10px;">
+                                            <label class="checkbox-label chb-label-font" for="captain">Староста</label>
+
+                                            <input type="checkbox" name="captain2" value="профорг" id="captain2">
+                                            <label class="checkbox-label chb-label-font" for="captain2">Профорг</label>
+
+                                            <input type="checkbox" name="captain3" value="спорторг" id="captain3">
+                                            <label class="checkbox-label chb-label-font" for="captain3">Спорторг</label>
+
+                                            <input type="checkbox" name="captain4" value="соцорг" id="captain4">
+                                            <label class="checkbox-label chb-label-font" for="captain4">Соцорг</label>
+
+                                            <input type="checkbox" name="captain5" value="культорг" id="captain5">
+                                            <label class="checkbox-label chb-label-font" for="captain5">Культорг</label>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- collapse open block end  -->
+                            </div>
+                            <!-- extended collapse end -->
+                    </div>
+                    <!-- white collapse block end -->
+
+                    <!-- table start -->
+                    <div class="blue_background_rgba_color personal_area_block margin_bottom20px">
+                                <table class="font_student_list block_width100" rules="all" bordercolor="#008EA5">
+
+                                    <tr>
+                                        <td>
+                                        №
+                                        </td>
+                                        <td>
+
+                                            <div class="flex_row flexbox_aling_center">
+                                                <span class="block_width100"> 
+                                                ФИО
+                                                </span>
+                                                <span class=" flex_justify_end block_width20">
+                                                    <input type="checkbox" name="fio0" id="fio0">
+                                                    <label for="fio0" class="padding_top5px checkbox-label chb-label-font"></label>
+                                                </span>
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        1
+                                        </td>
+                                        <td>
+
+                                            <div class="flex_row flexbox_aling_center">
+                                                <span class="block_width100">
+                                                Фамилия Имя Отчество
+                                                </span>
+                                                <span class=" flex_justify_end block_width20">
+                                                    <input type="checkbox" name="fio1" id="fio1">
+                                                    <label for="fio1" class="checkbox-label chb-label-font padding_top5px"></label>
+                                                </span>
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        2
+                                        </td>
+                                        <td>
+
+                                            <div class="flex_row flexbox_aling_center">
+                                                <span class="block_width100">
+                                                Фамилия Имя Отчество
+                                                </span>
+                                                <span class=" flex_justify_end block_width20">
+                                                    <input type="checkbox" name="fio2" id="fio2">
+                                                    <label for="fio2" class="padding_top5px checkbox-label chb-label-font"></label>
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                    </div>
+                    <!-- table end -->
+                </div>
+                <!-- well end -->
+            </div>
+            <!-- collapse open block end -->
+            <!-- collapse end -->
+
+        </div>
+
+        <!-- modal add user start -->
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm small_modal" role="document">
+                <div class="modal-content small_modal_content">
+                    <div class="modal-header">
+                        <div class="flexbox_aling_center flex_justify_space_between margin_bottom5px">
+                            <p class="font_modal_header font_modal_header_small">Добавить пользователя</p>
+                            <button type="button" class="close margin_left10px" data-dismiss="modal" aria-hidden="true">
+                                <img src="imgs/Modals_exit_button.png" alt="img"/>
+                            </button>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="modal-body" id="add_user_body_block">
+                        <div class="form-group margin_bottom10px">
+                            <label class="sr-only sign_in_form" for="surname">Фамилия
+                            </label>
+                            <input class="input_block font_placeholder_student_search" id="surname" type="text" name="surname" placeholder="Фамилия">
+                        </div>
+                        <div class="form-group margin_bottom10px">
+                            <label class="sr-only sign_in_form" for="name">
+                            Имя
+                            </label>
+                            <input class="input_block font_placeholder_student_search" id="name" type="text"  name="name" placeholder="Имя">
+                        </div>
+                        <div class="form-group margin_bottom10px">
+                            <label class="sr-only sign_in_form" for="patronymic">
+                            Отчество
+                            </label>
+                            <input class="input_block font_placeholder_student_search" type="text" id="patronymic" name="patronymic" placeholder="Отчество">
+                        </div>
+                        <div class="flex_row font_button_checkbox_radio">
+                            <div class="flex_column">
+                                <div class="flex_row">
+                                    <label class="control control-radio">
+                                    Мужской
+                                    <input type="radio" name="gender" checked="checked" />
+                                    <div class="control_indicator"></div>
+                                    </label>
+                                </div>
+                                <div class="flex_row">
+                                    <label class="control control-radio">
+                                    Женский
+                                    <input type="radio" name="gender"/>
+                                    <div class="control_indicator"></div>
+                                    </label>
+                                </div>
+
+                                <div class="font_placeholder_student_search margin_bottom5px">
+                                    <select class="input_block">
+                                        <option>Курс</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                                <div class="font_placeholder_student_search margin_bottom5px">
+                                    <select class="input_block">
+                                        <option>Группа</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label class="control control-radio">
+                                    Бюджет
+                                    <input type="radio" name="pay" checked="checked"/>
+                                    <div class="control_indicator"></div>
+                                    </label>
+                                </div>
+                                <div class="flex_row">
+                                    <label class="control control-radio">
+                                    Контракт
+                                    <input type="radio" name="pay"/>
+                                    <div class="control_indicator"></div>
+                                    </label>
+                                </div>
+
+                                <div class="margin_bottom5px">
+                                    <input type="checkbox" name="captain" value="староста" id="captain_1">
+                                    <label class="checkbox-label chb-label-font" for="captain_1">Староста</label>
+                                </div>
+
+                                <div class="margin_bottom5px">
+                                    <input type="checkbox" name="captain2" value="профорг" id="captain_2">
+                                    <label class="checkbox-label chb-label-font" for="captain_2">Профорг</label>
+                                </div>
+
+                                <div class="margin_bottom5px">
+                                    <input type="checkbox" name="captain3" value="спорторг" id="captain_3">
+                                    <label class="checkbox-label chb-label-font" for="captain_3">Спорторг</label>
+                                </div>
+
+                                <div class="margin_bottom5px">
+                                    <input type="checkbox" name="captain4" value="соцорг" id="captain_4">
+                                    <label class="checkbox-label chb-label-font" for="captain_4">Соцорг</label>
+                                </div>
+                                <div class="margin_bottom5px">
+                                    <input type="checkbox" name="captain5" value="культорг" id="captain_5">
+                                    <label class="checkbox-label chb-label-font" for="captain_5">Культорг</label>
+                                </div>    
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer" >
+                        <button class="modal_сonfirm_button  font_student_search_button" onclick="">Добавить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal add user end -->
+
+        <aside class="aside_personal_area_main_block font_aside_personal_area">
+            <div>
+                <a href="#" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color">
+                    <img src="#" class="aside_personal_area_img">
+                    <span>Отправить уведомление</span>
+                </a>
+            </div>
+            <div>
+                <a href="" type="button" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color" data-toggle="modal" data-target=".bs-example-modal-sm">
+                    <img src="imgs/Worker_Profile_add_user.png" class="aside_personal_area_img">
+                    <span>Добавить пользователя</span>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color">
+                    <img src="#" class="aside_personal_area_img">
+                    <span>Выход</span>
+                </a>
+            </div>
+
+
+            <div class="blue_background_rgba_color padding10px margin_bottom20px">
+<!--             <div class="line"></div> -->
+                <p class="font_notification_subject_and_data">
+                Тема уведомления
+                </p>
+                <p class="font_notification_text">
+                Описание уведомления.Описание уведомления. Описание уведомления. Описание уведомления. Описание уведомления.
+                </p>
+                <span class="font_notification_subject_and_data">
+                до
+                </span>
+                <time class="font_notification_subject_and_data">17:30</time>
+                <data class="font_notification_subject_and_data">01.03.1995</data>
+            </div>
+
+        </aside>
+    </div>
+    <!-- Events container end -->
+
+		<div class="row" id="info">
+              <img id="info-logo" src="imgs/info_logo.png">
+                <div>
+                    <p id='font_info_itis'>
+                        Высшая школа информационных технологий и информационных систем (ИТИС)
+                    </p>
+                      <p id="font_info">
+                          Адрес: 420008, Казань, ул. Кремлевская, 18.<br>
+
+                          Телефон: (843) 233-71-09<br>
+
+                          Факс: (843) 292-44-48<br>
+
+                          Адрес электронной почты: public.mail@kpfu.ru
+                      </p>
+                </div>
+        </div>
+		<div class="row" id="footer">
+            <div class="col-md-12" id='font_footer'>
+                <hr id="footer_hr">
+                <div class="flex_justify_space_between" id="footer_margin">
+                    <span>
+                    Казанский федеральный университет 2017 ©
+                    </span>
+                    <span>
+                    <a href="#" class="footer_link">ОБРАТНАЯ СВЯЗЬ</a>
+                    <a href="#" class="footer_link">ТЕХНИЧЕСКАЯ ПОДДЕРЖКА</a>
+                    <a href="#" class="footer_link">СОГЛАШЕНИЕ</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+	</div>
+  <!-- container end -->
+
+    </body>
+</html>
