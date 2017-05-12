@@ -23,6 +23,10 @@ body{
 	margin-left: 0px;
 }
 
+.full-width-textarea{
+	width: 100%;
+}
+
 button{
 	display: flex;
 	justify-content: center;
@@ -678,6 +682,24 @@ label.checkbox-label{
 
 /* modal add user start */
 
+/*modal send notification statr*/
+
+.large-modal{
+	width: 820px;
+	margin-top: 60px;
+}
+
+.modal-input{
+	height: 30px;
+	width: 50%;
+}
+
+.modal-textarea{
+	height: 120px;
+	resize: none;
+}
+/*modal send notification end*/
+
 /* radio style start */
 .control {
     /*font-family: arial;*/
@@ -741,3 +763,4 @@ label.checkbox-label{
 .spoiler-title:hover{
 	cursor: pointer;
 }
+

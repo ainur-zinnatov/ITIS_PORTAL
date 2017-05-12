@@ -310,7 +310,7 @@
         </div>
 
         <!-- modal add user start -->
-        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div id="add-user-modal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
             <div class="modal-dialog modal-sm small_modal" role="document">
                 <div class="modal-content small_modal_content">
                     <div class="modal-header">
@@ -426,15 +426,57 @@
         </div>
         <!-- modal add user end -->
 
+        <!-- modal send notification start -->
+        <div id="send-notification-modal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-lg large-modal" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="flexbox_aling_center flex_justify_space_between margin_bottom5px">
+                            <p class="font_modal_header">Отправить уведомление</p>
+                            <button type="button" class="close" style="margin-left: 10px;" data-dismiss="modal" aria-hidden="true">
+                                <img src="imgs/Modals_exit_button.png" alt="img"/>
+                            </button>
+                        </div>
+                        <hr>
+                    </div>
+                    <form class="modal-body" id="send-notification-form">
+                        <div class="form-group margin_bottom10px">
+                            <label class="sr-only sign_in_form" for="title">Тема
+                            </label>
+                            <input class="modal-input font_placeholder_student_search" id="title" type="text" name="Title" placeholder="Тема">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="font_placeholder_student_search full-width-textarea modal-textarea"></textarea>
+                        </div>
+                        <div class="flex_row font_button_checkbox_radio">
+                            <div class="flexbox_aling_center">
+                                <div class="input_block">
+                                    <input type="datetime" name="01.01.2017">
+                                </div>
+                                <div class="margin_bottom5px">
+                                    <input type="checkbox" name="captain" value="дедлайн" id="deadline">
+                                    <label class="checkbox-label chb-label-font" for="deadline">Дедлайн</label>
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="margin-left: 250px;">
+                                <button class="modal_сonfirm_button  font_student_search_button" onclick="">Опубликовать</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- modal send notification end -->
+
         <aside class="aside_personal_area_main_block font_aside_personal_area">
             <div>
-                <a href="#" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color">
+                <a href="#" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color" data-toggle="modal" data-target="#send-notification-modal">
                     <img src="#" class="aside_personal_area_img">
                     <span>Отправить уведомление</span>
                 </a>
             </div>
             <div>
-                <a href="" type="button" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color" data-toggle="modal" data-target=".bs-example-modal-sm">
+                <a href="" type="button" class="flexbox_aling_center flex_row margin_bottom20px blue_background_rgba_color" data-toggle="modal" data-target="#add-user-modal">
                     <img src="imgs/Worker_Profile_add_user.png" class="aside_personal_area_img">
                     <span>Добавить пользователя</span>
                 </a>
