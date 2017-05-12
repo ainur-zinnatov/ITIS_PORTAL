@@ -22,6 +22,8 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript" src="js/cursor.js"></script>
+
   </head>
   <body>
 
@@ -73,9 +75,12 @@
             <div class="personal_area_block font_worker_search_students_and_groups_header">
 
                 <a role="button" data-toggle="collapse" href="#timetable" aria-expanded="false" aria-controls="collapseExample">
-                    <div class="flex_row flexbox_aling_center white_background_color shadow">
+                    <div class="flex_row flexbox_aling_center white_background_color flex_justify_space_between shadow schedule_cursor_header">
                         <div class="padding3px5px">
                         Расписание
+                        </div>
+                        <div class="schedule_cursor closed">
+                            <img src="imgs/arrow_open.png" alt="open" width="20px" height="11px" class="margin_right10px">
                         </div>
                     </div>
                 </a>
@@ -94,12 +99,15 @@
             <div class="personal_area_block font_worker_search_students_and_groups_header margin_top20px">
 
                 <a role="button" data-toggle="collapse" href="#groups_adn_projects" aria-expanded="false" aria-controls="collapseExample">
-                    <div class="flex_row flexbox_aling_center white_background_color shadow">
-                        <div class="padding3px5px" style="width: 370px;">
+                    <div class="flex_row flexbox_aling_center white_background_color flex_justify_space_between shadow group_cursor_header">
+                        <div class="padding3px5px" style="width: 150px;">
                         Сообщества
                         </div>
                         <div>
                         Проекты
+                        </div>
+                        <div class="group_cursor closed">
+                            <img src="imgs/arrow_open.png" alt="open" width="20px" height="11px" class="margin_right10px">
                         </div>
                     </div>
                 </a>
@@ -148,10 +156,13 @@
             <!-- collapse start -->
             <div class="personal_area_block font_worker_search_students_and_groups_header margin_top20px margin_bottom20px">
                     <a role="button" data-toggle="collapse" href="#students_search" aria-expanded="false" aria-controls="collapseExample">
-                        <div class="flexbox_aling_center white_background_color shadow">
+                        <div class="flexbox_aling_center white_background_color flex_justify_space_between shadow search_cursor_header">
                             <span class="padding3px5px">
                             Поиск студентов
                             </span>
+                            <div class="search_cursor closed">
+                            <img src="imgs/arrow_open.png" alt="open" width="20px" height="11px" class="margin_right10px">
+                        </div>
                         </div>
                     </a>
             </div>
