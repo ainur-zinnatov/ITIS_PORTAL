@@ -392,3 +392,12 @@
 	font-weight: 500;
 	color: #008EA5;
 }
+
+
+.font_group_add_photo{
+	font-family: 'Segoe UI Light';
+	font-size: 13pt;
+	font-weight: 600;
+	color: #008EA5!important;
+}
+

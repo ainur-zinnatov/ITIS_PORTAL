@@ -1,0 +1,193 @@
+ <!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Страница новостей</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main style -->
+    <link href="style/style_for_all_pages.css" rel="stylesheet">
+
+    <!-- Fonts style -->
+    <link href="style/fonts_style.css" rel="stylesheet">
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/spoiler.js"></script>
+
+
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12" id="logo_and_abbr">
+            <img src="imgs/mini_logo.png" id="mini_logo">
+            <p id="font_abbr_logo_small">
+            ВЫСШАЯ ШКОЛА ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ И ИНФОРМАЦИОННЫХ СИСТЕМ
+            </p>
+        </div>
+      </div>
+
+    <!-- Menu -->
+    <div class="row" >
+        <div class="col-md-12">
+            <nav id="menu" class="flex_justify_space_between flexbox_aling_center">
+                <div id="font_menu">
+                    <a href="#" class="menu_link">НОВОСТИ
+                    </a>
+                    <a href="#" class="menu_link">СОБЫТИЯ
+                    </a>
+                    <a href="#" class="menu_link">СООБЩЕСТВА
+                    </a>
+                    <a href="#" class="menu_link">ПРОЕКТЫ
+                    </a>
+
+                </div>
+
+                <div id="font_menu_username">
+                    <a href="#" class="flex_row flexbox_aling_center">
+                        <span>Фамилия Имя</span>
+                        <div id="message_circle">
+                        3
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Menu end -->
+
+    <!-- Events container -->
+    <div class="main_block_with_flexbox">
+        <div>
+
+
+              <div class="event_news_admin_block">
+                <div class="form_admin">
+                    <label class="sr-only sign_in_form" for="surname">Введите заголовок</label>
+                    <input class="news_admin_input font_placeholder_student_search" id="surname" type="text" name="surname" placeholder="Введите заголовок">
+
+                    <label class="sr-only sign_in_form" for="surname">Введите заголовок</label>
+                    <input class="news_admin_input font_placeholder_student_search" id="surname" type="text" name="surname" placeholder="Введите заголовок">
+               
+                </div> 
+                 <div class="form_admin">
+                    <label class="sr-only sign_in_form" for="surname">Введите заголовок</label>
+                    <textarea class="news_admin_textarea font_placeholder_student_search" id="surname" type="text" name="surname" placeholder="Введите заголовок"></textarea>
+                  </div>
+              </div>
+
+
+            <div class="event_block">
+                    <div id="event_header" class=" flex_row">
+                        <p class="font_event_header">Заголовок новости
+                        </p>
+                        <p class="font_events_tag">#тег
+                        </p>
+                        <p class="font_events_tag">#тег
+                        </p>
+                        <p class="font_events_tag">#тег
+                        </p>
+                    </div>
+                    <hr class="event_hr">
+                    <div class="font_events_text group_text">
+                    Краткое описание новости. Краткое описание новости. Краткое описание. Краткое описание новости. Краткое описание новости новости новости. Краткое описание новости. Краткое описание. Краткое описание новости...
+                    </div>
+                    <div>
+                        <div class="flex_column">
+                            <!-- <div class="flex_column"> -->
+                            <div class="spoiler-body font_events_text" style="margin-right: 50px;">
+                                Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости. Краткое описание новости
+                            </div>
+                            <div class="flex_justify_space_between flexbox_aling_center margin_top10px">
+                                <div class="spoiler-title closed font_spoiler_cl_op">
+                                    <img src="imgs/arrow_open.png" alt="open" style="margin-right:5px;">
+                                    <span>
+                                    развернуть
+                                    </span>
+                                </div>
+                                <div class="flex_justify_end">
+                                    <span id="font_event_author">Автор события
+                                    </span>
+                                    <data class='font_event_author_time'>
+                                    16.06.2017
+                                    </data>
+                                    <time class='font_event_author_time'>
+                                    16:24
+                                    </time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event_block_images flex_justify_space_between ">
+                        <img src="imgs/Spravka.png" class="event_img" alt="img" >
+                        <img src="imgs/square_ph.png" class="event_img" alt="img" >
+                        <img src="imgs/square_ph.png" class="event_img" alt="img" >
+                    </div>
+            </div>
+            <div class="show_more_block" id="font_show_more_block">
+                  <a href="#">Показать больше</a>
+            </div>
+        </div>
+        <aside class="blue_background_rgba_color padding20px">
+            <div class="flexbox_aling_center">
+                <input type="checkbox" id="tag1" class="checkbox">
+                <label class="checkbox-label chb-label-font" id="font_tag_box" for="tag1">
+                #тег
+                </label>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Events container end -->
+
+        <div class="row" id="info">
+              <img id="info-logo" src="imgs/info_logo.png">
+                <div>
+                    <p id='font_info_itis'>
+                        Высшая школа информационных технологий и информационных систем (ИТИС)
+                    </p>
+                      <p id="font_info">
+                          Адрес: 420008, Казань, ул. Кремлевская, 18.<br>
+
+                          Телефон: (843) 233-71-09<br>
+
+                          Факс: (843) 292-44-48<br>
+
+                          Адрес электронной почты: public.mail@kpfu.ru
+                      </p>
+                </div>
+        </div>
+        <div class="row" id="footer">
+            <div class="col-md-12" id='font_footer'>
+                <hr id="footer_hr">
+                <div class="flex_justify_space_between" id="footer_margin">
+                    <span>
+                    Казанский федеральный университет 2017 ©
+                    </span>
+                    <span>
+                    <a href="#" class="footer_link">ОБРАТНАЯ СВЯЗЬ</a>
+                    <a href="#" class="footer_link">ТЕХНИЧЕСКАЯ ПОДДЕРЖКА</a>
+                    <a href="#" class="footer_link">СОГЛАШЕНИЕ</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+  <!-- container end -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

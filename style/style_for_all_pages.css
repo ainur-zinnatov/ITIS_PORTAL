@@ -784,4 +784,69 @@ label.checkbox-label{
 .spoiler-title:hover{
 	cursor: pointer;
 }
+/*admin*/
+.event_news_admin_block{
+	background-color: white;
+	width: 750px;
+	padding: 10px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	margin-bottom: 20px;
+}
 
+.news_admin_input{
+	width: 360px;
+	height: 30px;
+		border: 1px solid #99E5F1;
+	margin-left: 2px;
+}
+
+.news_admin_textarea{
+	width: 726px;
+	height: 120px;
+	resize: none;
+		border: 1px solid #99E5F1;
+	margin-left: 2px;
+}
+
+.form_admin{
+	margin-bottom: 7px;
+}
+
+/*add group*/
+
+.group_add_block{
+ background-color: white;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.group_add_photo{
+	width: 204px;
+ 	padding-top: 12px;
+ 	padding-left: 20px;
+
+}
+
+.group_add_text_block{
+	width: 572px;
+}
+
+
+.group_add_text_input{
+	width: 566px;
+	height: 34px;
+	margin-top: 6px;
+	border: 1px solid #99E5F1;
+	
+}
+
+.add_group_button{
+	height: 46px;
+	width: 204px;
+	background-color: #14B6CB;
+	font-family: 'Segoe UI Light';
+	font-size: 13pt;
+	font-weight: 300;
+	color: white;
+}
